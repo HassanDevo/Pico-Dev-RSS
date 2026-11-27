@@ -30,8 +30,8 @@
       "path": "LanguagePacks/ar.json",
       "commit": "",
       "updated": "2026-11-26",
-      "size": 1289026,
-      "sha256": "4ee29f12b42a26a75e370f1b533a3c477b89235593e73c6b7e56f3ff4edd9e9e"
+      "size": 1289017,
+      "sha256": "3613405994fa47411cb06ec7eb719f9526e028b031a15f0721e812434d378fe1"
     },
     {
       "id": "zh-hans",
@@ -56,8 +56,8 @@
       "path": "LanguagePacks/zh-hans.json",
       "commit": "",
       "updated": "2026-11-26",
-      "size": 1101410,
-      "sha256": "c9e9d5622b093f80de219b8d0a88d7d7a984e737b5279dd0ae692bbb24d040d7"
+      "size": 1101401,
+      "sha256": "23eeb0ee7e1425696eb147123c9438a3b93eebe8478c609335fe7e3547771acd"
     },
     {
       "id": "en-pirate-test",
@@ -82,8 +82,8 @@
       "path": "LanguagePacks/en-pirate-test.json",
       "commit": "",
       "updated": "2026-11-25",
-      "size": 778657,
-      "sha256": "314eef90bf09d49e89f5ac715e3c1453f9befff024a6e35a50fe8911851aa41d"
+      "size": 778654,
+      "sha256": "5182a6fda5a8bd73b05faf0e6e6518739cbcce584aa7d284c3d21c8cf7b5343a"
     },
     {
       "id": "ru",
@@ -108,8 +108,8 @@
       "path": "LanguagePacks/ru.json",
       "commit": "",
       "updated": "2026-11-25",
-      "size": 1274322,
-      "sha256": "6a6b53e6763a1bd870e00482c0d46e791dd5962f8a468d524af3ec679348869c"
+      "size": 1274313,
+      "sha256": "7a4bfee282d2052b95175a8265957c183296078fe6f403ac8973c69679360272"
     },
     {
       "id": "turkish",
@@ -134,8 +134,8 @@
       "path": "LanguagePacks/turkish.json",
       "commit": "",
       "updated": "2026-11-25",
-      "size": 1126083,
-      "sha256": "3a6c38df5f575bf34698664efab8d20d5262e45aaf26d8d9ecbce9cb31104e0a"
+      "size": 1126074,
+      "sha256": "ae9e238e11dc3e8fb1974caf7ccce37c9ab0f6578f2249fb85582f0b99b1b5c7"
     }
   ]
 }

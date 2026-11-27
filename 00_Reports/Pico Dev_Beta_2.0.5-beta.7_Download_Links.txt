@@ -145,15 +145,15 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: Downloads the signing key for the xtradeb Ubuntu PPA.
     Type: Key download.
 
-30. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_languages/HEAD/index.json
+30. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/HEAD/index.json
     Purpose: Language pack catalog index.
     Type: Catalog metadata.
 
-31. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_languages/<commit>/<file>.json
+31. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/<commit>/<file>.json
     Purpose: Direct language pack JSON download.
     Type: Direct JSON download template.
 
-32. https://github.com/Santoshkurmi/Pico Dev_languages
+32. https://github.com/Santoshkurmi/Pico-Dev-RSS
     Purpose: Translation repository page.
     Type: Source page.
 
