@@ -1,7 +1,7 @@
 {
-  "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/457813603",
-  "assets_url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/457813603/assets",
-  "upload_url": "https://uploads.github.com/repos/SantoshKurmi/termux-x11/releases/457813603/assets{?name,label}",
+  "url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/457813603",
+  "assets_url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/457813603/assets",
+  "upload_url": "https://uploads.github.com/repos/HassanDevo/termux-x11/releases/457813603/assets{?name,label}",
   "html_url": "https://github.com/HassanDevo/Pico-Dev-RSS/tree/main/Companions",
   "id": 457813603,
   "author": {
@@ -37,7 +37,7 @@
   "published_at": "2026-11-25T08:10:09Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659735",
+      "url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/assets/790659735",
       "id": 790659735,
       "node_id": "RA_kwDOVmAiqM4vIIKX",
       "name": "picodev-termux-x11-1.03.01-0-all.deb",
@@ -73,7 +73,7 @@
       "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Companions/Pico%20Dev-termux-x11-1.03.01-0-all.deb"
     },
     {
-      "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659734",
+      "url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/assets/790659734",
       "id": 790659734,
       "node_id": "RA_kwDOVmAiqM4vIIKW",
       "name": "picodev-termux-x11-1.03.01-0-any.pkg.tar.xz",
@@ -109,7 +109,7 @@
       "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Companions/Pico%20Dev-termux-x11-1.03.01-0-any.pkg.tar.xz"
     },
     {
-      "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659737",
+      "url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/assets/790659737",
       "id": 790659737,
       "node_id": "RA_kwDOVmAiqM4vIIKZ",
       "name": "picodev-termux-x11-sharedUid.apk",
@@ -145,7 +145,7 @@
       "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Companions/Pico%20Dev-termux-x11-sharedUid.apk"
     },
     {
-      "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659736",
+      "url": "https://api.github.com/repos/HassanDevo/termux-x11/releases/assets/790659736",
       "id": 790659736,
       "node_id": "RA_kwDOVmAiqM4vIIKY",
       "name": "termux-x11-checksums-sha256.txt",
@@ -181,7 +181,7 @@
       "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Companions/termux-x11-checksums-sha256.txt"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/SantoshKurmi/termux-x11/tarball/v1.03.01-3b7cc0a",
-  "zipball_url": "https://api.github.com/repos/SantoshKurmi/termux-x11/zipball/v1.03.01-3b7cc0a",
+  "tarball_url": "https://api.github.com/repos/HassanDevo/termux-x11/tarball/v1.03.01-3b7cc0a",
+  "zipball_url": "https://api.github.com/repos/HassanDevo/termux-x11/zipball/v1.03.01-3b7cc0a",
   "body": "Termux:X11 (sharedUid variant) signed with the Pico Dev release certificate.\n\nWorks only with Pico Dev's termux shared UID APK (`PicoDev-termux-shared-*.apk`).\nIt runs inside Pico Dev's process, so Android does not slow down or kill the\nX server and desktop while you are looking at it.\n\nInstall:\n1. Install `Pico Dev-termux-x11-sharedUid.apk`.\n2. In Pico Dev's terminal: `pkg install x11-repo`, then\n   `dpkg -i Pico Dev-termux-x11-*-all.deb` (or `apt install ./Pico Dev-termux-x11-*-all.deb`).\n3. `pkg install xfce` and run `termux-x11 :0 -xstartup xfce4-session`.\n\nDo not install `termux-x11-nightly` from x11-repo: its loader only accepts the\nofficial Termux:X11 signature.\n\n- Version: v1.03.01\n- Built from commit: 3b7cc0a6258dbce483de4b20bc62161ad8ef3e87\n- SHA256 checksums: see `checksums-sha256.txt`\n"
 }

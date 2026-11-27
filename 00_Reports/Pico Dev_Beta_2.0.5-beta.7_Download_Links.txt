@@ -28,40 +28,40 @@ This report lists download/update/installer/catalog links and pages that lead to
 DOWNLOAD / UPDATE / INSTALLER LINKS
 ===================================
 
-1. https://raw.githubusercontent.com/santoshkurmi/Pico Dev/standalone/version.json
+1. https://raw.githubusercontent.com/HassanDevo/Pico Dev/standalone/version.json
    Purpose: In-app updater metadata. Checks the latest stable/beta version number and changelog. Also used when looking for the chroot build version.
    Type: Metadata / update check.
 
-2. https://github.com/santoshkurmi/Pico Dev/releases/latest
+2. https://github.com/HassanDevo/Pico Dev/releases/latest
    Purpose: GitHub page for the latest Pico Dev release. Used for manual app update/download.
    Type: Download page.
 
-3. https://github.com/santoshkurmi/Pico Dev/releases
+3. https://github.com/HassanDevo/Pico Dev/releases
    Purpose: All Pico Dev releases page. Manual APK downloads.
    Type: Download page.
 
-4. https://github.com/santoshkurmi/Pico Dev/releases/download/v<version>/Pico Dev-v<version><suffix>.apk
+4. https://github.com/HassanDevo/Pico Dev/releases/download/v<version>/Pico Dev-v<version><suffix>.apk
    Purpose: Direct APK downloaded by the in-app updater.
    Suffix values: "" = normal build, "-chroot" = chroot build, "-x86_64" = x86_64 build.
    Type: Direct APK download template.
 
-5. https://github.com/Santoshkurmi/Pico Dev/releases/tag/rootfs-v2
+5. https://github.com/HassanDevo/Pico Dev/releases/tag/rootfs-v2
    Purpose: Rootfs release tag page. Manual Linux rootfs download page.
    Type: Download page.
 
-6. https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_2026-11-19.zip
+6. https://github.com/HassanDevo/Pico Dev/releases/download/rootfs-v2/bootrapz_2026-11-19.zip
    Purpose: Direct arm64 Linux rootfs/bootstrap ZIP download.
    Type: Direct ZIP download.
 
-7. https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_x86_64_2026-11-20.zip
+7. https://github.com/HassanDevo/Pico Dev/releases/download/rootfs-v2/bootrapz_x86_64_2026-11-20.zip
    Purpose: x86_64 rootfs ZIP in the Pico Dev source context. The beta APK itself contains the arm64 literal above.
    Type: Direct ZIP download variant (source-context variant).
 
-8. https://huggingface.co/datasets/santoshkurmi/rootfs-v2/tree/main
+8. https://huggingface.co/datasets/HassanDevo/rootfs-v2/tree/main
    Purpose: Hugging Face mirror listing for the rootfs files.
    Type: Download page.
 
-9. https://huggingface.co/datasets/santoshkurmi/rootfs-v2/resolve/main/bootrapz_2026-11-19.zip
+9. https://huggingface.co/datasets/HassanDevo/rootfs-v2/resolve/main/bootrapz_2026-11-19.zip
    Purpose: Direct Hugging Face mirror download for the arm64 rootfs ZIP.
    Type: Direct ZIP download.
 
@@ -77,11 +77,11 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: Direct Termux bootstrap ZIP download used to build the Linux environment.
     Type: Direct ZIP download template.
 
-13. https://github.com/santoshkurmi/Pico Dev/releases/download/v<version>/Pico Dev-v<version>-chroot.apk
+13. https://github.com/HassanDevo/Pico Dev/releases/download/v<version>/Pico Dev-v<version>-chroot.apk
     Purpose: Chroot build APK lookup/download.
     Type: Direct APK download template.
 
-14. https://github.com/Santoshkurmi/Pico Dev/releases/download/render-v1/Pico Dev-render-bundle-v1.zip
+14. https://github.com/HassanDevo/Pico Dev/releases/download/render-v1/Pico Dev-render-bundle-v1.zip
     Purpose: Downloads the offline rendering bundle used for diagrams/formulas.
     Type: Direct ZIP download.
 
@@ -109,19 +109,19 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: Elephant Goldfish model repository page.
     Type: Source page.
 
-21. https://github.com/Santoshkurmi/termux-x11/releases/latest
+21. https://github.com/HassanDevo/termux-x11/releases/latest
     Purpose: Termux:X11 release page. Used for the companion APK and .deb package.
     Type: Download page.
 
-22. https://github.com/Santoshkurmi/termux-x11/releases/latest/download/Pico Dev-termux-x11-sharedUid.apk
+22. https://github.com/HassanDevo/termux-x11/releases/latest/download/Pico Dev-termux-x11-sharedUid.apk
     Purpose: Direct download for the Pico Dev Termux:X11 companion APK.
     Type: Direct APK download.
 
-23. https://api.github.com/repos/Santoshkurmi/termux-x11/releases/latest
+23. https://api.github.com/repos/HassanDevo/termux-x11/releases/latest
     Purpose: Metadata used to find the Pico Dev-termux-x11-*-all.deb package.
     Type: Metadata API.
 
-24. https://github.com/Santoshkurmi/termux-api/releases
+24. https://github.com/HassanDevo/termux-api/releases
     Purpose: Download page for the Pico Dev Termux:API companion app.
     Type: Download page.
 
@@ -145,23 +145,23 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: Downloads the signing key for the xtradeb Ubuntu PPA.
     Type: Key download.
 
-30. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/HEAD/index.json
+30. https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/HEAD/index.json
     Purpose: Language pack catalog index.
     Type: Catalog metadata.
 
-31. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/<commit>/<file>.json
+31. https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/<commit>/<file>.json
     Purpose: Direct language pack JSON download.
     Type: Direct JSON download template.
 
-32. https://github.com/Santoshkurmi/Pico-Dev-RSS
+32. https://github.com/HassanDevo/Pico-Dev-RSS
     Purpose: Translation repository page.
     Type: Source page.
 
-33. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_mini_apps/HEAD/Pico Dev-mini-apps.json
+33. https://raw.githubusercontent.com/HassanDevo/Pico Dev_mini_apps/HEAD/Pico Dev-mini-apps.json
     Purpose: Mini Apps catalog index.
     Type: Catalog metadata.
 
-34. https://github.com/Santoshkurmi/Pico Dev_mini_apps
+34. https://github.com/HassanDevo/Pico Dev_mini_apps
     Purpose: Mini Apps repository page.
     Type: Source page.
 
@@ -189,11 +189,11 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: GitHub tree API used to enumerate plugin files before downloading them.
     Type: Metadata API.
 
-41. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/android-dev/skills/android-dev/scripts/<file>
+41. https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/android-dev/skills/android-dev/scripts/<file>
     Purpose: Android Development setup scripts.
     Type: Direct script download template.
 
-42. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/rea/skills/rea/scripts/<file>
+42. https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/rea/skills/rea/scripts/<file>
     Purpose: REA setup scripts.
     Type: Direct script download template.
 

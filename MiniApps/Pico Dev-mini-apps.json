@@ -1,20 +1,20 @@
 {
   "name": "Pico Dev mini apps",
   "format": 1,
-  "generated": "2026-11-16T11:18:45.017Z",
+  "generated": "2026-11-27T19:11:29.245Z",
   "apps": [
     {
       "path": "apps/agy-accounts",
-      "id": "com.PicoDev.agyaccounts",
+      "id": "com.picodev.agyaccounts",
       "name": "Agy Accounts",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Save your Antigravity (agy) logins and switch between them.",
-      "package": "com.Pico%20Dev.agyaccounts-1.0.0.agapp",
-      "sha256": "f36560664bdbcbcd2a1ca3429db2b8532740998e33ad9d27c2441ad38cd22078",
-      "size": 10146,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.agyaccounts-1.0.0.agapp",
+      "sha256": "59832e0af611ed0168f39ffa7fc9824ea01ae85f36015a8fabdb7778e427d6dd",
+      "size": 10156,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "storage": {
           "folders": [
@@ -25,20 +25,20 @@
           ]
         }
       },
-      "updated": "2026-11-16T11:18:44.925Z"
+      "updated": "2026-11-27T19:11:29.244Z"
     },
     {
       "path": "apps/devtools",
-      "id": "com.PicoDev.devtools",
+      "id": "com.picodev.devtools",
       "name": "Dev Toolbox",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "HTTP client, WebSocket tester, encoders and hashes, and Pico Dev MCP tools in one place.",
-      "package": "com.Pico%20Dev.devtools-1.0.0.agapp",
-      "sha256": "f6c2e2552a7ba0a12131d1e24f73df2d575175b69736613f0979a5a7ba012003",
-      "size": 15127,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.devtools-1.0.0.agapp",
+      "sha256": "3dd0ee4d115bb02631a2e5e15c88c1f5daa3b7d777beb3596fc91d6e85ced325",
+      "size": 15121,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "network": {
           "hosts": [
@@ -61,20 +61,20 @@
           }
         }
       },
-      "updated": "2026-11-12T07:27:37.514Z"
+      "updated": "2026-11-27T19:11:29.244Z"
     },
     {
       "path": "apps/explorer",
-      "id": "com.PicoDev.explorer",
+      "id": "com.picodev.explorer",
       "name": "Explorer",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Wikipedia, dictionary, currency rates, countries and Hacker News: free APIs, no keys, through Pico Dev's native network.",
-      "package": "com.Pico%20Dev.explorer-1.0.0.agapp",
-      "sha256": "dd6a08e02cdc85de0f24d4cfd976502f68049cd4d72f3b6dbef2b97a194d7eab",
-      "size": 21263,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.explorer-1.0.0.agapp",
+      "sha256": "6af2726c12d4e65fa1e29c4bff9e117537f68a7ddd80b17b7185d5ab58a468b2",
+      "size": 21266,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "network": {
           "hosts": [
@@ -92,38 +92,38 @@
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-12T07:27:37.526Z"
+      "updated": "2026-11-27T19:11:29.244Z"
     },
     {
       "path": "apps/focus",
-      "id": "com.PicoDev.focus",
+      "id": "com.picodev.focus",
       "name": "Focus",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Pomodoro focus timer: a live countdown notification with Pause and Skip, tasks, history, streaks and reminders that fire even when the app is closed.",
-      "package": "com.Pico%20Dev.focus-1.0.0.agapp",
-      "sha256": "4f16e0d5f6f546a487d4404df55ec5b7303080e970c8aec5bde63ec81d945753",
-      "size": 21852,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.focus-1.0.0.agapp",
+      "sha256": "9d065a70762686cb6d2cc0a585e87e00fef39d81d9fc0e1c0f16f0dc1afdf281",
+      "size": 21845,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-12T07:27:37.530Z"
+      "updated": "2026-11-27T19:11:29.244Z"
     },
     {
       "path": "apps/gallery",
-      "id": "com.PicoDev.gallery",
+      "id": "com.picodev.gallery",
       "name": "Gallery",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Browse photos and videos on your phone. Native file access per folder, thumbnails streamed natively.",
-      "package": "com.Pico%20Dev.gallery-1.0.0.agapp",
-      "sha256": "697cb3adc0ccac0957ecc0a78369bfefb01e6108f96bd18dd715ba003a34e52b",
-      "size": 12807,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.gallery-1.0.0.agapp",
+      "sha256": "4cb91b7a807da0c66d4d4205e536a9950d4df4a6092d5e2c2992909c74effe8b",
+      "size": 12803,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "storage": {
           "folders": [
@@ -140,37 +140,37 @@
         },
         "camera": true
       },
-      "updated": "2026-11-12T07:27:37.534Z"
+      "updated": "2026-11-27T19:11:29.244Z"
     },
     {
       "path": "apps/habits",
-      "id": "com.PicoDev.habits",
+      "id": "com.picodev.habits",
       "name": "Habits",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Daily habit tracker with streaks, a 4-week history and a daily reminder.",
-      "package": "com.Pico%20Dev.habits-1.0.0.agapp",
-      "sha256": "088e543fca932cbf32a006fb5e02f87b5e48ed35fcf0ad38b377049f5dff5891",
-      "size": 15758,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.habits-1.0.0.agapp",
+      "sha256": "bab1c12a432b3fe3cc3b06a434ad7dc16c3454cb96cd040501b1b0fe437dc500",
+      "size": 15754,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "notifications": true
       },
-      "updated": "2026-11-12T07:27:37.538Z"
+      "updated": "2026-11-27T19:11:29.245Z"
     },
     {
       "path": "apps/notes",
-      "id": "com.PicoDev.notes",
+      "id": "com.picodev.notes",
       "name": "Pocket Notes",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Quick markdown notes with pins, reminders, search, sharing and export to your Documents folder.",
-      "package": "com.Pico%20Dev.notes-1.0.0.agapp",
-      "sha256": "4d9a41ec9e1e930951cebb9629cbda9d265070da51dd5e0f94e74dad931a5f68",
-      "size": 16263,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.notes-1.0.0.agapp",
+      "sha256": "da8e4467842cb38a994543039cdad76af0b88b7e7880cc6cec29d432eaafa768",
+      "size": 16259,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "notifications": true,
         "clipboard": true,
@@ -183,20 +183,20 @@
           ]
         }
       },
-      "updated": "2026-11-12T07:27:37.541Z"
+      "updated": "2026-11-27T19:11:29.245Z"
     },
     {
       "path": "apps/showcase",
-      "id": "com.PicoDev.showcase",
+      "id": "com.picodev.showcase",
       "name": "Showcase",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Tries every Mini Apps feature: native storage, IndexedDB, files, network, cookies, native UI, notifications, reminders, background tasks, threads, permissions, theme and console.",
-      "package": "com.Pico%20Dev.showcase-1.0.0.agapp",
-      "sha256": "54acce9a6690f94f2af955f97ee2b5d77e71e5ccc2999e2ce92f006a1cb5213f",
+      "package": "com.picodev.showcase-1.0.0.agapp",
+      "sha256": "2ee721c18a74eee410529ef52cb96350132fcee539addaf1fd35054232ce6243",
       "size": 25796,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "network": {
           "hosts": [
@@ -234,20 +234,20 @@
           "notes_mcp": "read"
         }
       },
-      "updated": "2026-11-12T07:27:37.549Z"
+      "updated": "2026-11-27T19:11:29.245Z"
     },
     {
       "path": "apps/weather",
-      "id": "com.PicoDev.weather",
+      "id": "com.picodev.weather",
       "name": "Sky",
       "version": "1.0.0",
       "version_code": 1000000,
       "description": "Weather forecast with hourly chart, 7 days, rain alerts in the background and a morning reminder.",
-      "package": "com.Pico%20Dev.weather-1.0.0.agapp",
-      "sha256": "56969477f75c9d2cfd31e01ac2b103d44570690c8f231e9faea5cc8028e4839a",
-      "size": 13590,
-      "developer": "Santosh Kurmi",
-      "fingerprint": "57b8a7a0466f5dda67b1082e15305d5e3f3156e10ee9e9d0f7af6a505af53bed",
+      "package": "com.picodev.weather-1.0.0.agapp",
+      "sha256": "5e0806e3a201d05a579bfc11d4609b979361acee14f1badd88a5da407014378b",
+      "size": 13588,
+      "developer": "HassanDevo",
+      "fingerprint": "4dc979c3789079e99059dec3c70eb5d6e7e02110fc865754fb14de3fcec9e14c",
       "permissions": {
         "network": {
           "hosts": [
@@ -258,7 +258,7 @@
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-12T07:27:37.552Z"
+      "updated": "2026-11-27T19:11:29.245Z"
     }
   ]
 }

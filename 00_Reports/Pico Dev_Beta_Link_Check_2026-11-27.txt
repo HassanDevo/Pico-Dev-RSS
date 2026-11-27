@@ -4,58 +4,58 @@ Method: curl -L -I, connect timeout 8s, total timeout 20s. 200 = working; 4xx/5x
 Placeholder template URLs are checked with real resolved values in the next section.
 
 STATUS	LABEL	URL	NOTE
-200	version.json	https://raw.githubusercontent.com/santoshkurmi/Pico Dev/standalone/version.json	update metadata
-200	releases/latest	https://github.com/santoshkurmi/Pico Dev/releases/latest	latest release page
-200	releases	https://github.com/santoshkurmi/Pico Dev/releases	all releases page
-200	rootfs tag	https://github.com/Santoshkurmi/Pico Dev/releases/tag/rootfs-v2	rootfs release tag
-200	rootfs arm64 ZIP	https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_2026-11-19.zip	direct ZIP
-200	rootfs x86_64 ZIP	https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_x86_64_2026-11-20.zip	direct ZIP variant
-200	HF rootfs tree	https://huggingface.co/datasets/santoshkurmi/rootfs-v2/tree/main	mirror listing
-200	HF rootfs ZIP	https://huggingface.co/datasets/santoshkurmi/rootfs-v2/resolve/main/bootrapz_2026-11-19.zip	direct mirror ZIP
+200	version.json	https://raw.githubusercontent.com/HassanDevo/Pico Dev/standalone/version.json	update metadata
+200	releases/latest	https://github.com/HassanDevo/Pico Dev/releases/latest	latest release page
+200	releases	https://github.com/HassanDevo/Pico Dev/releases	all releases page
+200	rootfs tag	https://github.com/HassanDevo/Pico Dev/releases/tag/rootfs-v2	rootfs release tag
+200	rootfs arm64 ZIP	https://github.com/HassanDevo/Pico Dev/releases/download/rootfs-v2/bootrapz_2026-11-19.zip	direct ZIP
+200	rootfs x86_64 ZIP	https://github.com/HassanDevo/Pico Dev/releases/download/rootfs-v2/bootrapz_x86_64_2026-11-20.zip	direct ZIP variant
+200	HF rootfs tree	https://huggingface.co/datasets/HassanDevo/rootfs-v2/tree/main	mirror listing
+200	HF rootfs ZIP	https://huggingface.co/datasets/HassanDevo/rootfs-v2/resolve/main/bootrapz_2026-11-19.zip	direct mirror ZIP
 200	termux releases latest API	https://api.github.com/repos/termux/termux-packages/releases/latest	metadata API
 200	termux releases list API	https://api.github.com/repos/termux/termux-packages/releases?per_page=5	metadata API
-200	render bundle ZIP	https://github.com/Santoshkurmi/Pico Dev/releases/download/render-v1/Pico Dev-render-bundle-v1.zip	direct ZIP
+200	render bundle ZIP	https://github.com/HassanDevo/Pico Dev/releases/download/render-v1/Pico Dev-render-bundle-v1.zip	direct ZIP
 200	mermaid JS	https://cdn.jsdelivr.net/npm/mermaid@10.9.8/dist/mermaid.min.js	direct JS asset
 200	jsDelivr base	https://cdn.jsdelivr.net	CDN base
 200	EGM releases API	https://api.github.com/repos/google/elephant-goldfish-model/releases/latest	metadata API
 200	EGM commits API	https://api.github.com/repos/google/elephant-goldfish-model/commits/main	metadata API
 200	EGM repo	https://github.com/google/elephant-goldfish-model	source page
-200	termux-x11 latest page	https://github.com/Santoshkurmi/termux-x11/releases/latest	release page
-200	termux-x11 companion APK	https://github.com/Santoshkurmi/termux-x11/releases/latest/download/Pico Dev-termux-x11-sharedUid.apk	direct APK
-200	termux-x11 API	https://api.github.com/repos/Santoshkurmi/termux-x11/releases/latest	metadata API
-200	termux-api releases	https://github.com/Santoshkurmi/termux-api/releases	download page
+200	termux-x11 latest page	https://github.com/HassanDevo/termux-x11/releases/latest	release page
+200	termux-x11 companion APK	https://github.com/HassanDevo/termux-x11/releases/latest/download/Pico Dev-termux-x11-sharedUid.apk	direct APK
+200	termux-x11 API	https://api.github.com/repos/HassanDevo/termux-x11/releases/latest	metadata API
+200	termux-api releases	https://github.com/HassanDevo/termux-api/releases	download page
 200	Shizuku download	https://shizuku.rikka.app/download/	download page
 200	OpenCode install	https://opencode.ai/v2/install	installer script
 200	NodeSource setup 22	https://deb.nodesource.com/setup_22.x	installer script
 200	xtradeb PPA	https://ppa.launchpadcontent.net/xtradeb/apps/ubuntu	package repository
 405	xtradeb signing key	https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0x5301FA4FD93244FBC6F6149982BB6851C64F6880	key download
-200	language index	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/HEAD/index.json	catalog
-200	languages repo	https://github.com/Santoshkurmi/Pico-Dev-RSS	source page
-200	mini apps index	https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_mini_apps/HEAD/Pico Dev-mini-apps.json	catalog
-200	mini apps repo	https://github.com/Santoshkurmi/Pico Dev_mini_apps	source page
+200	language index	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/HEAD/index.json	catalog
+200	languages repo	https://github.com/HassanDevo/Pico-Dev-RSS	source page
+200	mini apps index	https://raw.githubusercontent.com/HassanDevo/Pico Dev_mini_apps/HEAD/Pico Dev-mini-apps.json	catalog
+200	mini apps repo	https://github.com/HassanDevo/Pico Dev_mini_apps	source page
 200	REA source page	https://github.com/morluto/rea	source page
 
 RESOLVED EXAMPLES FOR PLACEHOLDER TEMPLATES
 These are not literal links in the APK; they are real values substituted into the templates.
 
 STATUS	LABEL	URL	NOTE
-200	stable APK 2.0.4	https://github.com/santoshkurmi/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4.apk	resolved update template
-200	beta APK 2.0.5-beta.9	https://github.com/santoshkurmi/Pico Dev/releases/download/v2.0.5-beta.9/Pico Dev-v2.0.5-beta.9.apk	resolved beta updater
-200	beta APK 2.0.5-beta.7	https://github.com/santoshkurmi/Pico Dev/releases/download/v2.0.5-beta.7/Pico Dev-v2.0.5-beta.7.apk	this APK version
-200	stable APK 2.0.4 x86_64	https://github.com/santoshkurmi/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4-x86_64.apk	resolved suffix variant
-200	stable APK 2.0.4 chroot	https://github.com/santoshkurmi/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4-chroot.apk	resolved chroot template
+200	stable APK 2.0.4	https://github.com/HassanDevo/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4.apk	resolved update template
+200	beta APK 2.0.5-beta.9	https://github.com/HassanDevo/Pico Dev/releases/download/v2.0.5-beta.9/Pico Dev-v2.0.5-beta.9.apk	resolved beta updater
+200	beta APK 2.0.5-beta.7	https://github.com/HassanDevo/Pico Dev/releases/download/v2.0.5-beta.7/Pico Dev-v2.0.5-beta.7.apk	this APK version
+200	stable APK 2.0.4 x86_64	https://github.com/HassanDevo/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4-x86_64.apk	resolved suffix variant
+200	stable APK 2.0.4 chroot	https://github.com/HassanDevo/Pico Dev/releases/download/v2.0.4/Pico Dev-v2.0.4-chroot.apk	resolved chroot template
 200	termux bootstrap aarch64	https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1+apt.android-7/bootstrap-aarch64.zip	resolved bootstrap template
 200	termux bootstrap arm	https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1+apt.android-7/bootstrap-arm.zip	resolved bootstrap template
 200	EGM source ZIP	https://codeload.github.com/google/elephant-goldfish-model/zip/46933754e63c0424daa9c270d7e0734245d79560	resolved commit SHA
-200	language pack JSON	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/6e523862731700d536d2fa8af96b769013d43db8/languages/ar/ar.json	resolved language template
-200	mini app package	https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_mini_apps/HEAD/dist/com.Pico Dev.agyaccounts-1.0.0.agapp	resolved .agapp template
-200	plugin catalog	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/Pico Dev-plugins.json	resolved plugin index template
-200	plugin manifest	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/rea/manifest.json	resolved manifest template
-200	plugin file	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/rea/skills/rea/scripts/rea-setup.sh	resolved plugin file template
-200	plugin repo ZIP	https://github.com/Santoshkurmi/Pico-Dev-RSS/archive/main.zip	resolved archive template
-200	plugin tree API	https://api.github.com/repos/Santoshkurmi/Pico-Dev-RSS/git/trees/main?recursive=1	resolved tree API template
-200	android-dev script	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/android-dev/skills/android-dev/scripts/android-setup.sh	resolved script template
-200	REA script	https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/rea/skills/rea/scripts/rea-setup.sh	resolved script template
+200	language pack JSON	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/6e523862731700d536d2fa8af96b769013d43db8/languages/ar/ar.json	resolved language template
+200	mini app package	https://raw.githubusercontent.com/HassanDevo/Pico Dev_mini_apps/HEAD/dist/com.Pico Dev.agyaccounts-1.0.0.agapp	resolved .agapp template
+200	plugin catalog	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Pico Dev-plugins.json	resolved plugin index template
+200	plugin manifest	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/rea/manifest.json	resolved manifest template
+200	plugin file	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/rea/skills/rea/scripts/rea-setup.sh	resolved plugin file template
+200	plugin repo ZIP	https://github.com/HassanDevo/Pico-Dev-RSS/archive/main.zip	resolved archive template
+200	plugin tree API	https://api.github.com/repos/HassanDevo/Pico-Dev-RSS/git/trees/main?recursive=1	resolved tree API template
+200	android-dev script	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/android-dev/skills/android-dev/scripts/android-setup.sh	resolved script template
+200	REA script	https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/rea/skills/rea/scripts/rea-setup.sh	resolved script template
 206	xtradeb signing key (GET)	https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0x5301FA4FD93244FBC6F6149982BB6851C64F6880	HEAD returned 405; GET used
 
 SUMMARY
