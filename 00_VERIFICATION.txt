@@ -5,7 +5,7 @@ Folder: /storage/emulated/0/Pico Files
 === TOTALS ===
 OK files: 58
 FAIL entries: 0
-Downloaded bytes: 1386881380
+Downloaded bytes: 1386885107
 Free space: 23G available
 
 === EGM RELEASE CHECKSUMS ===
