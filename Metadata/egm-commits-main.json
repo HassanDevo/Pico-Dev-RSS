@@ -1,0 +1,137 @@
+{
+  "sha": "46933754e63c0424daa9c270d7e0734245d79560",
+  "node_id": "C_kwDOUZMgZtoAKDQ2OTMzNzU0ZTYzYzA0MjRkYWE5YzI3MGQ3ZTA3MzQyNDVkNzk1NjA",
+  "commit": {
+    "author": {
+      "name": "Oliver Newth",
+      "email": "5912894+n3wth@users.noreply.github.com",
+      "date": "2026-11-25T16:52:49Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-11-25T16:52:49Z"
+    },
+    "message": "Explain how to resume a workflow (#493)\n\nCo-authored-by: Smit Parmar <149599329+smituparmar01@users.noreply.github.com>",
+    "tree": {
+      "sha": "327b35f4fb73dfa293c5cff9159a254ed251ee8c",
+      "url": "https://api.github.com/repos/google/elephant-goldfish-model/git/trees/327b35f4fb73dfa293c5cff9159a254ed251ee8c"
+    },
+    "url": "https://api.github.com/repos/google/elephant-goldfish-model/git/commits/46933754e63c0424daa9c270d7e0734245d79560",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJrBxJhCRC1aQ7uu5UhlAAAu5cQAJpc2rNDzknXIvmOyxO/jmIT\ntw0EYnEUycG5g/4S5vsJiZOh2xSaQ+7CdMgj8GsmT1QIR5eF/HBTQmdJf+PREa+m\nG6IHjq1Ed0V5P6TKheoXJqi8EWdHM1HD8Tik7y3DpccX706n/BOQd0bjm1/BFBh+\ndb2Ewt9E7+Cq+a64hdfF0odZE2jR6t96h4Qi7YP4LpehgpEZJs4tVuHrhzxUdGRf\neZK9cWx9A2xFAwonD6/13YToxcKfPnAeCiMp4F5G1IxxgF14Gn+tvGHLxI2Th37V\nGcya1txvmUvDEnXl2OOu7sPeFOoPdmU0vM6pK1iBvJfnHPUG0iVyhfFNUrDDgYMT\nLJ3gL33XENqmvFQHZSQ+hzONALQFDZi9XRupiqWDOcR3dDpMYWTdE48rz+ghGb/2\n6X9lotFSROOtxW5UIVWUjcDznkEsaBgjl2M/JhOL8yzGyTooUF7/2DYN20Vh/v+t\nnbUpZ6WFl+QPuETp1x/RmVRCcVnHIcUw1pRR1v6kZyYdM+wgF3o4qY6hbaVMHWni\nT8h1uK2RH1i8UorZPOFM+hDfn34e6PLvplZ2MRyo7GF+arV+Frny0wBJjZPfmNGC\nU8HCz8rcPLmbwPBzCiAK5VpTUuTo3slec5mpOOBtazlESBQg0VaW8preLcDNGSrT\nevkB8xUVG755qqIlzMTZ\n=goC/\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 327b35f4fb73dfa293c5cff9159a254ed251ee8c\nparent 63e239d8d4c3ddc6774faf533b4997405f78c549\nauthor Oliver Newth <5912894+n3wth@users.noreply.github.com> 1795625569 -0800\ncommitter GitHub <noreply@github.com> 1795625569 -0500\n\nExplain how to resume a workflow (#493)\n\nCo-authored-by: Smit Parmar <149599329+smituparmar01@users.noreply.github.com>",
+      "verified_at": "2026-11-25T16:52:50Z"
+    }
+  },
+  "url": "https://api.github.com/repos/google/elephant-goldfish-model/commits/46933754e63c0424daa9c270d7e0734245d79560",
+  "html_url": "https://github.com/google/elephant-goldfish-model/commit/46933754e63c0424daa9c270d7e0734245d79560",
+  "comments_url": "https://api.github.com/repos/google/elephant-goldfish-model/commits/46933754e63c0424daa9c270d7e0734245d79560/comments",
+  "author": {
+    "login": "n3wth",
+    "id": 5912894,
+    "node_id": "MDQ6VXNlcjU5MTI4OTQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5912894?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/n3wth",
+    "html_url": "https://github.com/n3wth",
+    "followers_url": "https://api.github.com/users/n3wth/followers",
+    "following_url": "https://api.github.com/users/n3wth/following{/other_user}",
+    "gists_url": "https://api.github.com/users/n3wth/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/n3wth/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/n3wth/subscriptions",
+    "organizations_url": "https://api.github.com/users/n3wth/orgs",
+    "repos_url": "https://api.github.com/users/n3wth/repos",
+    "events_url": "https://api.github.com/users/n3wth/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/n3wth/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "63e239d8d4c3ddc6774faf533b4997405f78c549",
+      "url": "https://api.github.com/repos/google/elephant-goldfish-model/commits/63e239d8d4c3ddc6774faf533b4997405f78c549",
+      "html_url": "https://github.com/google/elephant-goldfish-model/commit/63e239d8d4c3ddc6774faf533b4997405f78c549"
+    }
+  ],
+  "stats": {
+    "total": 58,
+    "additions": 56,
+    "deletions": 2
+  },
+  "files": [
+    {
+      "sha": "8c0648c50dd9fa06c8d642d416cd30a1c72385cb",
+      "filename": "docs/designs/README.md",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/google/elephant-goldfish-model/blob/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fdesigns%2FREADME.md",
+      "raw_url": "https://github.com/google/elephant-goldfish-model/raw/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fdesigns%2FREADME.md",
+      "contents_url": "https://api.github.com/repos/google/elephant-goldfish-model/contents/docs%2Fdesigns%2FREADME.md?ref=46933754e63c0424daa9c270d7e0734245d79560",
+      "patch": "@@ -9,7 +9,7 @@ operational guardrails.\n | [site_documentation.md](site_documentation.md)<br>Proposed multi-page guide, skill reference, and shared site interface. | [@n3wth](https://github.com/n3wth) | Website and documentation |\n | [lite.md](lite.md)<br>Rapid ad-hoc engineering protocol enforcing a decoupled 5-phase state machine with Elephant and Goldfish persona switching for small, rapid iterations, specification revisions, code refactors, and bug fixes. | [@njeunje](https://github.com/njeunje) | [`egm-lite`](../../skills/egm-lite/SKILL.md) |\n | [triz_integration.md](triz_integration.md)<br>Draft Soviet TRIZ method integration introducing the Inventive Catalyst persona to eliminate false architectural compromises in `/egm-brainstorm` and Step 5 of `/egm-review`. | [@briansuchy](https://github.com/briansuchy) | [`egm-brainstorm`](../../skills/egm-brainstorm/SKILL.md), [`egm-review`](../../skills/egm-review/SKILL.md) (#37) |\n-| [ask.md](ask.md)<br>Draft read-only command that answers questions about EGM and suggests the next skill from workspace artifacts. | [@smituparmar01](https://github.com/smituparmar01) | `egm-ask` (#175) |\n+| [ask.md](ask.md)<br>Not planned. Workflow guidance is retained in the getting-started docs. | [@smituparmar01](https://github.com/smituparmar01) | Historical `egm-ask` proposal (#175) |\n | [skill_icons.md](skill_icons.md)<br>Canonical skill artwork shared by plugins, the README, and the website. | [@n3wth](https://github.com/n3wth) | Skill presentation |\n | [runtime_packaging.md](runtime_packaging.md)<br>Implemented runtime package boundaries, permissions, and validation. | [@n3wth](https://github.com/n3wth) | Runtime packaging implementation (#136) |\n | [releases.md](releases.md)<br>Implemented versioned archives, checksums, and manual release procedure. | [@n3wth](https://github.com/n3wth) | Release implementation (#137) |"
+    },
+    {
+      "sha": "7e39b6265a685c3c94ae1e99bb44ec4894049d48",
+      "filename": "docs/designs/ask.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 1,
+      "changes": 7,
+      "blob_url": "https://github.com/google/elephant-goldfish-model/blob/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fdesigns%2Fask.md",
+      "raw_url": "https://github.com/google/elephant-goldfish-model/raw/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fdesigns%2Fask.md",
+      "contents_url": "https://api.github.com/repos/google/elephant-goldfish-model/contents/docs%2Fdesigns%2Fask.md?ref=46933754e63c0424daa9c270d7e0734245d79560",
+      "patch": "@@ -1,12 +1,17 @@\n # EGM Ask: Read-Only Contextual Help & Next-Step Guidance\n \n *   **Author:** Smit Parmar ([@smituparmar01](https://github.com/smituparmar01))\n-*   **Status:** Draft\n+*   **Status:** Not planned\n *   **Date:** 2026-10-28\n *   **Issue:** [#175](https://github.com/google/elephant-goldfish-model/issues/175)\n \n --------------------------------------------------------------------------------\n \n+The separate command was declined in [#298](https://github.com/google/elephant-goldfish-model/pull/298).\n+Workflow guidance is retained in [What to Run Next](../getting_started.md#what-to-run-next)\n+under [#492](https://github.com/google/elephant-goldfish-model/issues/492).\n+The proposal below is historical; `/egm-ask` is not an available skill.\n+\n ## Overview\n \n The **EGM Ask Skill** (`/egm-ask <question>`) answers a user's question about"
+    },
+    {
+      "sha": "24fedd2e8f28c0fed08f369fe8f666546e30eb99",
+      "filename": "docs/getting_started.md",
+      "status": "modified",
+      "additions": 43,
+      "deletions": 0,
+      "changes": 43,
+      "blob_url": "https://github.com/google/elephant-goldfish-model/blob/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fgetting_started.md",
+      "raw_url": "https://github.com/google/elephant-goldfish-model/raw/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fgetting_started.md",
+      "contents_url": "https://api.github.com/repos/google/elephant-goldfish-model/contents/docs%2Fgetting_started.md?ref=46933754e63c0424daa9c270d7e0734245d79560",
+      "patch": "@@ -86,6 +86,49 @@ The \"core\" workflow looks like:\n     > testing strategies, etc. EGM is not opinionated here. Add your skills to\n     > your implementation plan!\n \n+## What to Run Next\n+\n+When you return to a project, use the artifacts below to find the step to\n+continue. Check the working directory, your configured\n+[artifact directory](harnesses.md#artifact-directory), and `scratch/`.\n+Designs live in `docs/designs/`.\n+\n+A file shows that a step started, not that it finished. Match reports to the\n+design you mean; they may be partial or left over from another run. These are\n+starting points, not a required sequence.\n+\n+| Artifact (written by) | Next step |\n+| :------------------- | :-------- |\n+| No artifacts or design yet | `/egm-brainstorm` for a new idea, or `/egm-bootstrap` to document existing code |\n+| `concepts_brief.md` (`/egm-brainstorm`) | Review the brief, then use `/egm-draft`. It can also start from notes or `discussion_summary.md` |\n+| `design_draft.md` (`/egm-draft`) | Continue the draft until it is ready to save as `docs/designs/<feature>.md` |\n+| `docs/designs/<feature>.md` | Use `/egm-review docs/designs/<feature>.md` when the design is ready for review |\n+| `zoom_out_report.md`, `comprehension_report.md`, `critic_report.md`, `intermediate_zoom_out_report.md`, `implementation_readiness_report.md`, or `consolidated_review_report.md` (`/egm-review`) | Check where the review stopped. Continue its pending step, or use `/egm-resolve` on findings from a completed review |\n+| `goldfish_review_report.md` (from `/egm-review` or `/egm-resolve`) without `Status: resolved` | Return to the pending resolution step, or use `/egm-resolve` on the report |\n+| `goldfish_review_report.md` with `Status: resolved` | Confirm the target and that the full review finished. `/egm-review` can resolve findings before later stages run. Send the design for human review, then implement after approval |\n+\n+Before implementing, confirm which design is in scope, that no review or\n+resolution step is pending, and that a human approved the design. A saved\n+design or resolved report alone does not establish approval.\n+\n+Commands above use the same [host-specific forms](../README.md#try-your-first-design)\n+as the core loop. For a different task, choose from the\n+[skill descriptions](../README.md#choose-a-skill) instead of inferring a stage from files.\n+\n+## Get Help with Setup\n+\n+Start with the [harness guide](harnesses.md) and its linked instructions for\n+your application. If a skill is missing, check that installation and the\n+command form first. If a reviewer cannot read its persona or standards, check\n+the application's read permissions. A Goldfish review requires fresh-context\n+subagents; without them, stop and use a supported application.\n+\n+For a usage question the guides do not answer, use\n+[Discussions Q&A](https://github.com/google/elephant-goldfish-model/discussions/categories/q-a).\n+For a failure, [open an issue](https://github.com/google/elephant-goldfish-model/issues/new?template=bug_report.md)\n+with the application version, EGM version or commit, command, and error.\n+Remove secrets and private project content from any logs.\n+\n ## Drift Detection\n \n To ensure that your design specifications and active codebase remain"
+    },
+    {
+      "sha": "bde04d6501eb815bf45493fa64f013a7f75e1b9a",
+      "filename": "docs/site/getting-started.md",
+      "status": "modified",
+      "additions": 6,
+      "deletions": 0,
+      "changes": 6,
+      "blob_url": "https://github.com/google/elephant-goldfish-model/blob/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fsite%2Fgetting-started.md",
+      "raw_url": "https://github.com/google/elephant-goldfish-model/raw/46933754e63c0424daa9c270d7e0734245d79560/docs%2Fsite%2Fgetting-started.md",
+      "contents_url": "https://api.github.com/repos/google/elephant-goldfish-model/contents/docs%2Fsite%2Fgetting-started.md?ref=46933754e63c0424daa9c270d7e0734245d79560",
+      "patch": "@@ -26,6 +26,12 @@ and what happens when two requests overlap.\n \n The assistant asks questions and writes a short brief. Read the brief before you continue to [drafting and review](/workflow).\n \n+## Return to a project\n+\n+Use [What to Run Next](https://github.com/google/elephant-goldfish-model/blob/main/docs/getting_started.md#what-to-run-next) to match your brief, draft, or review reports to the step to continue. Files can be partial or belong to another run. Confirm the target, any pending review, and any required human approval before proceeding.\n+\n+For skill choice, use the [skills guide](/skills). For a setup failure, use [Get Help with Setup](https://github.com/google/elephant-goldfish-model/blob/main/docs/getting_started.md#get-help-with-setup).\n+\n ## Review another type of document\n \n Save the document as a file. Use [Custom review](/skills/egm-review-loop) to choose reviewers and standards for your task."
+    }
+  ]
+}

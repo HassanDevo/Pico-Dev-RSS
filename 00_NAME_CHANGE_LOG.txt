@@ -1,0 +1,26 @@
+PICO FILES - REBRAND CHANGE LOG
+Date: 2026-11-27
+Scope: /storage/emulated/0/Pico Files only
+Rule: old brand name -> Pico Dev / PicoDev / PICO DEV
+Binary file contents were not edited internally; only filenames were renamed.
+
+CHANGES
+- Removed folder: Updates/
+- Removed all update APKs and version.json from the local folder.
+- Renamed 19 files that contained the old brand name in their filenames.
+- Replaced the old brand name in safe text files:
+  .txt, .tsv, .json, .md, .sh, .x, .asc, .html, .js, .mjs, .svg
+- Replaced mixed-case identifier forms with PicoDev.
+- Removed old update rows from 00_MANIFEST.tsv.
+- Recomputed all file sizes and SHA-256 hashes in 00_MANIFEST.tsv after the rebrand.
+- Regenerated 00_VERIFICATION.txt.
+
+FINAL CHECK
+- Files/folders still containing the old brand name: 0
+- Text files still containing the old brand name: 0
+- Updates/ folder present: no
+
+NOTE
+- Signed/binary files were left byte-for-byte intact so they are not corrupted.
+- Only their local filenames were renamed.
+- An original pre-rebrand manifest backup is kept outside this folder in the temporary work area.

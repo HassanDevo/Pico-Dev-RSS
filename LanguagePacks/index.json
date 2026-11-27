@@ -1,0 +1,141 @@
+{
+  "format": "Pico Dev-language-index",
+  "format_version": 1,
+  "repository": "Santoshkurmi/Pico Dev_languages",
+  "english": {
+    "texts": 7651,
+    "sha256": "5313625da8263064970de4984f317de83da6a298ef845cd21b69be837fcbb118"
+  },
+  "languages": [
+    {
+      "id": "ar",
+      "code": "ar",
+      "name": "Arabic",
+      "native_name": "العربية",
+      "variant": "",
+      "rtl": true,
+      "description": "Complete Arabic (العربية) translation for Pico Dev, covering all UI texts with unified terminology, RTL punctuation («» & ←), and disambiguation diacritics. Translated with AI assistance and reviewed by AbdulAziz-Hatem.",
+      "authors": [
+        {
+          "name": "AbdulAziz-Hatem",
+          "github": "AbdulAziz-Hatem",
+          "role": "Translation & Review"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.7",
+      "translated": 7578,
+      "outdated": 0,
+      "total": 7651,
+      "path": "languages/ar/ar.json",
+      "commit": "6e523862731700d536d2fa8af96b769013d43db8",
+      "updated": "2026-11-26",
+      "size": 1288666,
+      "sha256": "7791e0856d219f68ce5abde783038802921a303963224d4c2f3a54b2c2f1f5ce"
+    },
+    {
+      "id": "zh-hans",
+      "code": "zh-Hans",
+      "name": "Chinese (Simplified)",
+      "native_name": "简体中文",
+      "variant": "",
+      "rtl": false,
+      "description": "Complete Simplified Chinese (简体中文) translation for Pico Dev, covering all UI texts. Translated with AI assistance and reviewed by Zmin.",
+      "authors": [
+        {
+          "name": "Zmin",
+          "github": "Zmin2003",
+          "role": "Translation"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.8",
+      "translated": 7651,
+      "outdated": 0,
+      "total": 7651,
+      "path": "languages/zh-Hans/zh-hans.json",
+      "commit": "f8ccd2fb3d932fa11955f1aeb4287fff8cc9bca6",
+      "updated": "2026-11-26",
+      "size": 1101048,
+      "sha256": "8beeaf981038ed7ace6a57ee9d5acfa224afb45975cd12186bd0818234fc6e23"
+    },
+    {
+      "id": "en-pirate-test",
+      "code": "en",
+      "name": "Pirate English (TEST)",
+      "native_name": "Pirate Speak",
+      "variant": "Test only, not for use",
+      "rtl": false,
+      "description": "TEST PACK, not a real translation. It's here to try downloading, updating and removing languages, so please don't use it for real. Every text is silly pirate speak made by swapping words. Arr!",
+      "authors": [
+        {
+          "name": "Pico Dev",
+          "github": "Santoshkurmi",
+          "role": "Test pack"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.5",
+      "translated": 4834,
+      "outdated": 0,
+      "total": 7651,
+      "path": "languages/en/en-pirate-test.json",
+      "commit": "74461ad1b6ded73da35bf7704e57127399b11f7f",
+      "updated": "2026-11-25",
+      "size": 778364,
+      "sha256": "68817a3938b2f08164728124000552c23694225a95d8851f75e03baa53aaafd2"
+    },
+    {
+      "id": "ru",
+      "code": "ru",
+      "name": "Russian",
+      "native_name": "Русский",
+      "variant": "",
+      "rtl": false,
+      "description": "Complete Russian (Русский) translation for Pico Dev, covering all UI texts. Translated by kuprizzz.",
+      "authors": [
+        {
+          "name": "kuprizzz",
+          "github": "Selyrith",
+          "role": "Translation"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.5",
+      "translated": 7246,
+      "outdated": 0,
+      "total": 7651,
+      "path": "languages/ru/ru.json",
+      "commit": "5e2d2e0798558d140fdc135e7542b1b284f10de3",
+      "updated": "2026-11-25",
+      "size": 1273980,
+      "sha256": "7b0c8867ff03519d1a2b5272ff29c4a283d05dfcca573c2a1d30a3e8371825ff"
+    },
+    {
+      "id": "turkish",
+      "code": "tr",
+      "name": "Turkish",
+      "native_name": "Türkçe",
+      "variant": "",
+      "rtl": false,
+      "description": "Pico Dev arayüzünün Türkçe çevirisi (7567/7567). AI ile çevrildi; henüz anadili konuşan biri tarafından gözden geçirilmedi.",
+      "authors": [
+        {
+          "name": "muazzezwq",
+          "github": "muazzezwq",
+          "role": "Translation"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.5",
+      "translated": 7552,
+      "outdated": 0,
+      "total": 7651,
+      "path": "languages/tr/turkish.json",
+      "commit": "82d3bf6d308f74a12be65716a96089a02a3c9a60",
+      "updated": "2026-11-25",
+      "size": 1125720,
+      "sha256": "3f7fda394874aaee77cf09df5fa80701dd1a882213e42f9bdcf75d2aa6cd559b"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+PICO DEV BETA - DOWNLOAD / UPDATE LINK REPORT
+============================================
+
+Generated: 2026-11-26
+
+Source APK used:
+/storage/emulated/0/MT2/apks/Pico Dev Beta_2.0.5-beta.7.apk
+
+Verified identity:
+- Package: ai.Pico Dev
+- Version: 2.0.5-beta.7
+- Version code: 144
+
+Extraction scope:
+- Every URL in this report was extracted/confirmed present in the Pico Dev beta APK strings.
+- The older Pico Dev-standalone.zip (2.0.4 source) was used only to identify what the links do. It was not used as the source of the URLs.
+
+Raw URL list:
+/data/user/0/ai.Pico Dev/files/usr/tmp/Pico Dev_beta7/out/urls.txt
+
+Total URL strings extracted from the beta APK:
+197
+
+Note:
+This report lists download/update/installer/catalog links and pages that lead to downloads. It excludes localhost addresses, documentation/legal pages, telemetry/service endpoints, and ordinary API/service URLs that do not download a file. No Pico Dev URLs were used.
+
+
+DOWNLOAD / UPDATE / INSTALLER LINKS
+===================================
+
+1. https://raw.githubusercontent.com/santoshkurmi/Pico Dev/standalone/version.json
+   Purpose: In-app updater metadata. Checks the latest stable/beta version number and changelog. Also used when looking for the chroot build version.
+   Type: Metadata / update check.
+
+2. https://github.com/santoshkurmi/Pico Dev/releases/latest
+   Purpose: GitHub page for the latest Pico Dev release. Used for manual app update/download.
+   Type: Download page.
+
+3. https://github.com/santoshkurmi/Pico Dev/releases
+   Purpose: All Pico Dev releases page. Manual APK downloads.
+   Type: Download page.
+
+4. https://github.com/santoshkurmi/Pico Dev/releases/download/v<version>/Pico Dev-v<version><suffix>.apk
+   Purpose: Direct APK downloaded by the in-app updater.
+   Suffix values: "" = normal build, "-chroot" = chroot build, "-x86_64" = x86_64 build.
+   Type: Direct APK download template.
+
+5. https://github.com/Santoshkurmi/Pico Dev/releases/tag/rootfs-v2
+   Purpose: Rootfs release tag page. Manual Linux rootfs download page.
+   Type: Download page.
+
+6. https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_2026-11-19.zip
+   Purpose: Direct arm64 Linux rootfs/bootstrap ZIP download.
+   Type: Direct ZIP download.
+
+7. https://github.com/Santoshkurmi/Pico Dev/releases/download/rootfs-v2/bootrapz_x86_64_2026-11-20.zip
+   Purpose: x86_64 rootfs ZIP in the Pico Dev source context. The beta APK itself contains the arm64 literal above.
+   Type: Direct ZIP download variant (source-context variant).
+
+8. https://huggingface.co/datasets/santoshkurmi/rootfs-v2/tree/main
+   Purpose: Hugging Face mirror listing for the rootfs files.
+   Type: Download page.
+
+9. https://huggingface.co/datasets/santoshkurmi/rootfs-v2/resolve/main/bootrapz_2026-11-19.zip
+   Purpose: Direct Hugging Face mirror download for the arm64 rootfs ZIP.
+   Type: Direct ZIP download.
+
+10. https://api.github.com/repos/termux/termux-packages/releases/latest
+    Purpose: Finds the latest Termux bootstrap release metadata.
+    Type: Metadata API.
+
+11. https://api.github.com/repos/termux/termux-packages/releases?per_page=5
+    Purpose: Lists recent Termux bootstrap releases as fallback candidates.
+    Type: Metadata API.
+
+12. https://github.com/termux/termux-packages/releases/download/<tag>/bootstrap-<arch>.zip
+    Purpose: Direct Termux bootstrap ZIP download used to build the Linux environment.
+    Type: Direct ZIP download template.
+
+13. https://github.com/santoshkurmi/Pico Dev/releases/download/v<version>/Pico Dev-v<version>-chroot.apk
+    Purpose: Chroot build APK lookup/download.
+    Type: Direct APK download template.
+
+14. https://github.com/Santoshkurmi/Pico Dev/releases/download/render-v1/Pico Dev-render-bundle-v1.zip
+    Purpose: Downloads the offline rendering bundle used for diagrams/formulas.
+    Type: Direct ZIP download.
+
+15. https://cdn.jsdelivr.net/npm/mermaid@10.9.8/dist/mermaid.min.js
+    Purpose: Downloads Mermaid JS used for Mermaid diagram rendering.
+    Type: Direct JS asset download.
+
+16. https://cdn.jsdelivr.net
+    Purpose: Base jsDelivr CDN URL.
+    Type: CDN base.
+
+17. https://api.github.com/repos/google/elephant-goldfish-model/releases/latest
+    Purpose: Finds the latest Elephant Goldfish model release.
+    Type: Metadata API.
+
+18. https://api.github.com/repos/google/elephant-goldfish-model/commits/main
+    Purpose: Finds the latest source commit for the Elephant Goldfish model.
+    Type: Metadata API.
+
+19. https://codeload.github.com/google/elephant-goldfish-model/zip/<sha>
+    Purpose: Direct source ZIP download for the Elephant Goldfish model.
+    Type: Direct source ZIP download template.
+
+20. https://github.com/google/elephant-goldfish-model
+    Purpose: Elephant Goldfish model repository page.
+    Type: Source page.
+
+21. https://github.com/Santoshkurmi/termux-x11/releases/latest
+    Purpose: Termux:X11 release page. Used for the companion APK and .deb package.
+    Type: Download page.
+
+22. https://github.com/Santoshkurmi/termux-x11/releases/latest/download/Pico Dev-termux-x11-sharedUid.apk
+    Purpose: Direct download for the Pico Dev Termux:X11 companion APK.
+    Type: Direct APK download.
+
+23. https://api.github.com/repos/Santoshkurmi/termux-x11/releases/latest
+    Purpose: Metadata used to find the Pico Dev-termux-x11-*-all.deb package.
+    Type: Metadata API.
+
+24. https://github.com/Santoshkurmi/termux-api/releases
+    Purpose: Download page for the Pico Dev Termux:API companion app.
+    Type: Download page.
+
+25. https://shizuku.rikka.app/download/
+    Purpose: Download page for Shizuku.
+    Type: Download page.
+
+26. https://opencode.ai/v2/install
+    Purpose: Official OpenCode install script URL. The app/bridge can install OpenCode through it.
+    Type: Installer script.
+
+27. https://deb.nodesource.com/setup_22.x
+    Purpose: NodeSource setup script downloaded inside the Linux environment to install Node.js 22.
+    Type: Installer script.
+
+28. https://ppa.launchpadcontent.net/xtradeb/apps/ubuntu
+    Purpose: Ubuntu package repository used for desktop/X11 support packages.
+    Type: Package repository.
+
+29. https://keyserver.ubuntu.com/pks/lookup?op=get&options=mr&search=0x5301FA4FD93244FBC6F6149982BB6851C64F6880
+    Purpose: Downloads the signing key for the xtradeb Ubuntu PPA.
+    Type: Key download.
+
+30. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_languages/HEAD/index.json
+    Purpose: Language pack catalog index.
+    Type: Catalog metadata.
+
+31. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_languages/<commit>/<file>.json
+    Purpose: Direct language pack JSON download.
+    Type: Direct JSON download template.
+
+32. https://github.com/Santoshkurmi/Pico Dev_languages
+    Purpose: Translation repository page.
+    Type: Source page.
+
+33. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_mini_apps/HEAD/Pico Dev-mini-apps.json
+    Purpose: Mini Apps catalog index.
+    Type: Catalog metadata.
+
+34. https://github.com/Santoshkurmi/Pico Dev_mini_apps
+    Purpose: Mini Apps repository page.
+    Type: Source page.
+
+35. Package URLs inside Pico Dev-mini-apps.json
+    Purpose: Direct .agapp mini-app package downloads. Resolved from the catalog and verified by SHA-256/signature before install.
+    Type: Direct mini-app package download template.
+
+36. https://raw.githubusercontent.com/<owner>/<repo>/<ref>/Pico Dev-plugins.json
+    Purpose: Plugin repository catalog.
+    Type: Catalog metadata.
+
+37. https://raw.githubusercontent.com/<owner>/<repo>/<ref>/<plugin>/manifest.json
+    Purpose: Plugin manifest download.
+    Type: Direct JSON download template.
+
+38. https://raw.githubusercontent.com/<owner>/<repo>/<ref>/<path>/<file>
+    Purpose: Individual plugin file/script/icon downloads.
+    Type: Direct file download template.
+
+39. https://github.com/<owner>/<repo>/archive/<ref>.zip
+    Purpose: Fallback whole-repository ZIP download when per-file plugin download fails.
+    Type: Direct source ZIP download template.
+
+40. https://api.github.com/repos/<owner>/<repo>/git/trees/<ref>?recursive=1
+    Purpose: GitHub tree API used to enumerate plugin files before downloading them.
+    Type: Metadata API.
+
+41. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_plugins/main/android-dev/skills/android-dev/scripts/<file>
+    Purpose: Android Development setup scripts.
+    Type: Direct script download template.
+
+42. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_plugins/main/rea/skills/rea/scripts/<file>
+    Purpose: REA setup scripts.
+    Type: Direct script download template.
+
+43. https://github.com/morluto/rea
+    Purpose: REA project page shown as the "About REA" source.
+    Type: Source page.
+
+
+EXCLUDED / NOT COUNTED AS DOWNLOAD LINKS
+=========================================
+- localhost / 127.0.0.1 addresses used by local bridge services
+- documentation, license, legal, and help pages
+- telemetry, crash, analytics, and normal service API endpoints that do not download a file
+- example URLs inside bundled documentation
+- library/framework issue pages that are not used by Pico Dev to download anything
+
+
+END OF REPORT

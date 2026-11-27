@@ -1,0 +1,513 @@
+{
+  "sha": "65515c340a231f1f82377fbc5bb24aeb86d8b979",
+  "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/65515c340a231f1f82377fbc5bb24aeb86d8b979",
+  "tree": [
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63e1942c0a3d29ed86e2abb969f63ba814ab06a4",
+      "size": 7209,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/63e1942c0a3d29ed86e2abb969f63ba814ab06a4"
+    },
+    {
+      "path": "android-dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "09203ead58e74050bf190e6b861321e1b7338658",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/09203ead58e74050bf190e6b861321e1b7338658"
+    },
+    {
+      "path": "android-dev/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b54007af9bc1c2cb4b00067072c2d684127b4b4a",
+      "size": 512,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/b54007af9bc1c2cb4b00067072c2d684127b4b4a"
+    },
+    {
+      "path": "android-dev/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcc812fdffd42f832583e39626d933dd09921f14",
+      "size": 489,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/bcc812fdffd42f832583e39626d933dd09921f14"
+    },
+    {
+      "path": "android-dev/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7242c835c2c2c5b8d19bd8b65bfe90ca63fa45c3",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/7242c835c2c2c5b8d19bd8b65bfe90ca63fa45c3"
+    },
+    {
+      "path": "android-dev/skills/android-dev.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ffc5b07826513179a51f7deec65af624ad9a15",
+      "size": 9656,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/83ffc5b07826513179a51f7deec65af624ad9a15"
+    },
+    {
+      "path": "android-dev/skills/android-dev",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b2c810050d262d46bf7bb3e37c87062b074e504",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/8b2c810050d262d46bf7bb3e37c87062b074e504"
+    },
+    {
+      "path": "android-dev/skills/android-dev/flutter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a6d69590177d5b4ca7e549b75bb926103ee8e3",
+      "size": 3075,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/80a6d69590177d5b4ca7e549b75bb926103ee8e3"
+    },
+    {
+      "path": "android-dev/skills/android-dev/kotlin-compose.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b542cc071ad8b575de6e453d4ee96052ab4b186",
+      "size": 4547,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/5b542cc071ad8b575de6e453d4ee96052ab4b186"
+    },
+    {
+      "path": "android-dev/skills/android-dev/react-native.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "962f02991dd28aab7cc972f2ff7d50af118098a9",
+      "size": 2759,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/962f02991dd28aab7cc972f2ff7d50af118098a9"
+    },
+    {
+      "path": "android-dev/skills/android-dev/run-on-phone.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05ff88a50f12be03094073ea566c4ce7b9b4628",
+      "size": 2191,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/d05ff88a50f12be03094073ea566c4ce7b9b4628"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a15bffd5b690a2d0cfd680dfcf20a1db1d574ddf",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/a15bffd5b690a2d0cfd680dfcf20a1db1d574ddf"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts/adev",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "448867310ee9bfd68958eb57ca38cc502b44b795",
+      "size": 2605,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/448867310ee9bfd68958eb57ca38cc502b44b795"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts/adev-chroot",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "4f3a309e1a1221ed4b401472e99db85ea5c8e609",
+      "size": 1420,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/4f3a309e1a1221ed4b401472e99db85ea5c8e609"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts/adev-new",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ef8ecbd1f765d71c2e6b6b05615de16fe8048c4",
+      "size": 17357,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/6ef8ecbd1f765d71c2e6b6b05615de16fe8048c4"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts/android-setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a5a19a5261616368afa0fe4df9ffff2404ed401",
+      "size": 42856,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/8a5a19a5261616368afa0fe4df9ffff2404ed401"
+    },
+    {
+      "path": "android-dev/skills/android-dev/scripts/files.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "394fecc01f1db27b8d9f05b2436275c1262c418d",
+      "size": 91,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/394fecc01f1db27b8d9f05b2436275c1262c418d"
+    },
+    {
+      "path": "android-dev/skills/android-dev/setup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7afdcfc5af28685147861eb8fc453fbbbddfa485",
+      "size": 6891,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/7afdcfc5af28685147861eb8fc453fbbbddfa485"
+    },
+    {
+      "path": "android-dev/skills/android-dev/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "991224e18c6a2a9b5273abf276c461692b06db01",
+      "size": 5824,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/991224e18c6a2a9b5273abf276c461692b06db01"
+    },
+    {
+      "path": "Pico Dev-plugins.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b84a0b2c627024d5e02763a48e3d7256f76953a",
+      "size": 1683,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/9b84a0b2c627024d5e02763a48e3d7256f76953a"
+    },
+    {
+      "path": "browser_skill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1898c23581f4ce470edf9da5fd948813e233c29",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/c1898c23581f4ce470edf9da5fd948813e233c29"
+    },
+    {
+      "path": "browser_skill/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8b4e3f04bc342fda59c939808635ecd316872ff",
+      "size": 522,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/e8b4e3f04bc342fda59c939808635ecd316872ff"
+    },
+    {
+      "path": "browser_skill/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "938d9518745312f352f5207b02089e2973b90637",
+      "size": 426,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/938d9518745312f352f5207b02089e2973b90637"
+    },
+    {
+      "path": "browser_skill/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0cdf79e55cbb34acc844294d4667e3cc83dd2ba",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/c0cdf79e55cbb34acc844294d4667e3cc83dd2ba"
+    },
+    {
+      "path": "browser_skill/skills/browser_skill.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7a8e0ff1cf1df68681edf607572d083b802cdde",
+      "size": 12985,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/b7a8e0ff1cf1df68681edf607572d083b802cdde"
+    },
+    {
+      "path": "browser_skill/skills/browser_skill",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ce144cc50c3483eeb6b4c8496f546542d11623f1",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/ce144cc50c3483eeb6b4c8496f546542d11623f1"
+    },
+    {
+      "path": "browser_skill/skills/browser_skill/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a280ed68609e29576a2b8ead745968926f617fe",
+      "size": 5102,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/0a280ed68609e29576a2b8ead745968926f617fe"
+    },
+    {
+      "path": "browser_skill/skills/browser_skill/workflows.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db5408dd6072bc66c28b56a7ed4f340ec2dd8564",
+      "size": 5586,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/db5408dd6072bc66c28b56a7ed4f340ec2dd8564"
+    },
+    {
+      "path": "clippolish",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0dc4b6835acb4d9b2652e1bc3bb82b8848638f7",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/e0dc4b6835acb4d9b2652e1bc3bb82b8848638f7"
+    },
+    {
+      "path": "clippolish/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a570d87be2a560a3051fc62adcee9601800b3655",
+      "size": 535,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/a570d87be2a560a3051fc62adcee9601800b3655"
+    },
+    {
+      "path": "clippolish/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22664ac300d98282ccb524fa10550c0329ceeff6",
+      "size": 491,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/22664ac300d98282ccb524fa10550c0329ceeff6"
+    },
+    {
+      "path": "clippolish/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8113d8efd88c4f5c8e7144dc2132b5719899241c",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/8113d8efd88c4f5c8e7144dc2132b5719899241c"
+    },
+    {
+      "path": "clippolish/skills/clippolish.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d3b282c87798af1f36634acb4baba647aade4ff",
+      "size": 9380,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/5d3b282c87798af1f36634acb4baba647aade4ff"
+    },
+    {
+      "path": "clippolish/skills/clippolish",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "230edfeea71de420d4882cd9f9029d04a504cd97",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/230edfeea71de420d4882cd9f9029d04a504cd97"
+    },
+    {
+      "path": "clippolish/skills/clippolish/create-easily.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eca929462ac3cde49a108dbcae528cc3a1c37239",
+      "size": 11509,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/eca929462ac3cde49a108dbcae528cc3a1c37239"
+    },
+    {
+      "path": "clippolish/skills/clippolish/files-and-preview.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6730877393a3cfc326a0afb3702f21e750d0b053",
+      "size": 4646,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/6730877393a3cfc326a0afb3702f21e750d0b053"
+    },
+    {
+      "path": "clippolish/skills/clippolish/json-editing.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8543d4f1f981ede4b5817800a2671444b1f69d41",
+      "size": 4762,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/8543d4f1f981ede4b5817800a2671444b1f69d41"
+    },
+    {
+      "path": "clippolish/skills/clippolish/motion-vfx.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8daa6137678af044d9e34aa9c7fc186de41ed642",
+      "size": 12535,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/8daa6137678af044d9e34aa9c7fc186de41ed642"
+    },
+    {
+      "path": "clippolish/skills/clippolish/plugins.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d53816d8e9e0ca2f04ec91887c75b8912e17c75",
+      "size": 9675,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/6d53816d8e9e0ca2f04ec91887c75b8912e17c75"
+    },
+    {
+      "path": "clippolish/skills/clippolish/recordings.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "552fd36c41a821b9f85ea2867369d62cf46be92c",
+      "size": 5969,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/552fd36c41a821b9f85ea2867369d62cf46be92c"
+    },
+    {
+      "path": "clippolish/skills/clippolish/studio.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c073de27fd263cc90b82a629a62cc35532320229",
+      "size": 10294,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/c073de27fd263cc90b82a629a62cc35532320229"
+    },
+    {
+      "path": "clippolish/skills/clippolish/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3844fccf5ae3648a5675a49a554a9ce947ee3c15",
+      "size": 4093,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/3844fccf5ae3648a5675a49a554a9ce947ee3c15"
+    },
+    {
+      "path": "rea",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "02610035741bd7d7624b888e957c572df9294f3a",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/02610035741bd7d7624b888e957c572df9294f3a"
+    },
+    {
+      "path": "rea/icon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edf387c688bd18ea69860d844a04659510763066",
+      "size": 669,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/edf387c688bd18ea69860d844a04659510763066"
+    },
+    {
+      "path": "rea/manifest.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e5d95c239046ea4dabc387477ac3de22ecd4f03",
+      "size": 456,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/6e5d95c239046ea4dabc387477ac3de22ecd4f03"
+    },
+    {
+      "path": "rea/skills",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "49c066bcdaff9446e51c3afc2f8caaf46bd1ddbb",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/49c066bcdaff9446e51c3afc2f8caaf46bd1ddbb"
+    },
+    {
+      "path": "rea/skills/rea.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32c59ab0b590152e54647053bacadcd63418f11f",
+      "size": 6308,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/32c59ab0b590152e54647053bacadcd63418f11f"
+    },
+    {
+      "path": "rea/skills/rea",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "deb104b049c72c2186f3a7804b03250335cf0975",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/deb104b049c72c2186f3a7804b03250335cf0975"
+    },
+    {
+      "path": "rea/skills/rea/android.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5951b7c3fec6e1ca97ad333e1211d22e40b868e5",
+      "size": 3682,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/5951b7c3fec6e1ca97ad333e1211d22e40b868e5"
+    },
+    {
+      "path": "rea/skills/rea/device.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abf9a78ceee2776b95621bfa6256838029f5d18c",
+      "size": 1713,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/abf9a78ceee2776b95621bfa6256838029f5d18c"
+    },
+    {
+      "path": "rea/skills/rea/flutter.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26a384d581fc9c10a2830783592eb80735a28f4c",
+      "size": 1923,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/26a384d581fc9c10a2830783592eb80735a28f4c"
+    },
+    {
+      "path": "rea/skills/rea/mcp.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "061cf49dae6d77a36877a02bea7c3b340fdddce5",
+      "size": 4415,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/061cf49dae6d77a36877a02bea7c3b340fdddce5"
+    },
+    {
+      "path": "rea/skills/rea/native.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9fbbd6f0c292222e0b8c54939aa13a69ec2889b",
+      "size": 2468,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/a9fbbd6f0c292222e0b8c54939aa13a69ec2889b"
+    },
+    {
+      "path": "rea/skills/rea/react-native.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e419866db9f3091a3bd84453601350badab9872a",
+      "size": 2506,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/e419866db9f3091a3bd84453601350badab9872a"
+    },
+    {
+      "path": "rea/skills/rea/scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "19b18e8c88d4a11fe8a4ea4a8ff60ad12b2bc1bb",
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/trees/19b18e8c88d4a11fe8a4ea4a8ff60ad12b2bc1bb"
+    },
+    {
+      "path": "rea/skills/rea/scripts/files.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8af8b132970d215a4456969bcc82b8f0fa98fb0",
+      "size": 155,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/d8af8b132970d215a4456969bcc82b8f0fa98fb0"
+    },
+    {
+      "path": "rea/skills/rea/scripts/groups.default.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dea443e065b0a8475bfa8f4b919b8351200ea1d",
+      "size": 8262,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/4dea443e065b0a8475bfa8f4b919b8351200ea1d"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-filter.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bce6914da5677a0097391fd6be9448c6f7d89529",
+      "size": 20423,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/bce6914da5677a0097391fd6be9448c6f7d89529"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-mcp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac81bd23faac8bc6b300adef3e2140311644dc7f",
+      "size": 2843,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/ac81bd23faac8bc6b300adef3e2140311644dc7f"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-mcp-chroot",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ed7219a7d075443a0790fe3f69aa5bbb6835ed01",
+      "size": 2080,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/ed7219a7d075443a0790fe3f69aa5bbb6835ed01"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-setup.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6455bd031e6abce9351f2dc163767d30eaa6838b",
+      "size": 21499,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/6455bd031e6abce9351f2dc163767d30eaa6838b"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-shell",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc636d4c99b2ad866a0538e6ad9febd26f3c1ba",
+      "size": 1819,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/5cc636d4c99b2ad866a0538e6ad9febd26f3c1ba"
+    },
+    {
+      "path": "rea/skills/rea/scripts/rea-shell-chroot",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5f655b21f1abbcbb324691cda1cd7f8ea4411771",
+      "size": 883,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/5f655b21f1abbcbb324691cda1cd7f8ea4411771"
+    },
+    {
+      "path": "rea/skills/rea/setup.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ced7b6c9cab1c4b9ed3d788080dc6e072d6caad",
+      "size": 5305,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/2ced7b6c9cab1c4b9ed3d788080dc6e072d6caad"
+    },
+    {
+      "path": "rea/skills/rea/troubleshooting.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3516c0db949716373f70a220dc560a526b739cd1",
+      "size": 2552,
+      "url": "https://api.github.com/repos/SantoshKurmi/Pico Dev_plugins/git/blobs/3516c0db949716373f70a220dc560a526b739cd1"
+    }
+  ],
+  "truncated": false
+}
