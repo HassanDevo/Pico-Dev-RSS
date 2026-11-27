@@ -40,7 +40,7 @@
       "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659735",
       "id": 790659735,
       "node_id": "RA_kwDOVmAiqM4vIIKX",
-      "name": "Pico Dev-termux-x11-1.03.01-0-all.deb",
+      "name": "picodev-termux-x11-1.03.01-0-all.deb",
       "label": "",
       "uploader": {
         "login": "github-actions[bot]",
@@ -76,7 +76,7 @@
       "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659734",
       "id": 790659734,
       "node_id": "RA_kwDOVmAiqM4vIIKW",
-      "name": "Pico Dev-termux-x11-1.03.01-0-any.pkg.tar.xz",
+      "name": "picodev-termux-x11-1.03.01-0-any.pkg.tar.xz",
       "label": "",
       "uploader": {
         "login": "github-actions[bot]",
@@ -112,7 +112,7 @@
       "url": "https://api.github.com/repos/SantoshKurmi/termux-x11/releases/assets/790659737",
       "id": 790659737,
       "node_id": "RA_kwDOVmAiqM4vIIKZ",
-      "name": "Pico Dev-termux-x11-sharedUid.apk",
+      "name": "picodev-termux-x11-sharedUid.apk",
       "label": "",
       "uploader": {
         "login": "github-actions[bot]",
