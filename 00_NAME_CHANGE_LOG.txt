@@ -24,3 +24,14 @@ NOTE
 - Signed/binary files were left byte-for-byte intact so they are not corrupted.
 - Only their local filenames were renamed.
 - An original pre-rebrand manifest backup is kept outside this folder in the temporary work area.
+
+LINK PLACEMENT UPDATE (2026-11-27)
+- Pico Dev source was pointed to this repository for rootfs, bootstrap, render,
+  EGM, Termux:X11, Termux:API, installers, language packs, mini apps and plugins.
+- Saved metadata JSON files were corrected to use HassanDevo/Pico-Dev-RSS URLs.
+- Broken shell identifiers created by the earlier text rebrand were repaired.
+- Plugin folders were added under Plugins/ so the app's plugin and setup-file
+  downloaders work from this repository.
+- Language and mini-app catalogs were corrected to match the actual local files.
+- Updates/version.json and the Pico Dev APK are deliberately NOT in this repo.
+  They live in HassanDevo/Pico-Dev.

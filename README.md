@@ -20,4 +20,8 @@ See `LARGE_FILES.md` and `LARGE_FILES.tsv` for the exact files, sizes, SHA-256 h
 
 Text files were rebranded from the old app name to `Pico Dev` / `PicoDev` / `PICO DEV`. Signed/binary files were not edited internally; only their local filenames were renamed.
 
-Updates were removed from this bundle because Pico Dev will use its own update files.
+## Pico Dev integration
+
+Pico Dev downloads its rootfs, bootstrap archives, render bundle, companions, installers, language packs, mini apps and plugins from this repository. The saved metadata files under `Metadata/` point to the files in this repo.
+
+Updates are intentionally not stored here. `Updates/version.json` and the Pico Dev APK live in `HassanDevo/Pico-Dev`.

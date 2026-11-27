@@ -1,11 +1,11 @@
 VERIFICATION REPORT - Pico Files
-Generated: 2026-11-27 (after Pico Dev rebrand)
+Generated: 2026-11-27 (after Pico-Dev-RSS link placement)
 Folder: /storage/emulated/0/Pico Files
 
 === TOTALS ===
-OK files: 51
-FAIL entries: 2
-Downloaded bytes: 1386865858
+OK files: 54
+FAIL entries: 0
+Downloaded bytes: 1386880064
 Free space: 23G available
 
 === EGM RELEASE CHECKSUMS ===
@@ -31,14 +31,20 @@ PASS  com.Pico Dev.notes-1.0.0.agapp
 PASS  com.Pico Dev.showcase-1.0.0.agapp
 PASS  com.Pico Dev.weather-1.0.0.agapp
 
+=== LANGUAGE PACK CHECKSUMS ===
+PASS  ar.json
+PASS  zh-hans.json
+PASS  en-pirate-test.json
+PASS  ru.json
+PASS  turkish.json
+
 === ROOTFS MIRROR DUPLICATE ===
 PASS  GitHub rootfs and Hugging Face mirror are byte-identical
 GitHub size: 400054861 bytes
 Mirror size:  400054861 bytes
 
 === NOTES ===
-- Updates/ was removed. No update APKs or version.json remain.
-- Text files were rebranded from the old brand name to Pico Dev/PicoDev.
+- Update files and the Pico Dev APK live in the Pico Dev repository, not in RSS.
+- All downloadable resource links in Pico Dev now point to Pico-Dev-RSS.
 - Signed/binary files were not edited internally; only filenames were renamed.
-- Manifest sizes and SHA-256 hashes were recomputed after the rebrand.
-- Two historical manifest FAIL entries remain for rate-limited GitHub API metadata calls; replacement files are present.
+- Manifest sizes and SHA-256 hashes were recomputed after the link placement.
