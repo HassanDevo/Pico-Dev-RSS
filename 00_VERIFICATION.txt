@@ -3,9 +3,9 @@ Generated: 2026-11-27 (after Pico-Dev-RSS link placement)
 Folder: /storage/emulated/0/Pico Files
 
 === TOTALS ===
-OK files: 54
+OK files: 58
 FAIL entries: 0
-Downloaded bytes: 1386880064
+Downloaded bytes: 1386881380
 Free space: 23G available
 
 === EGM RELEASE CHECKSUMS ===
