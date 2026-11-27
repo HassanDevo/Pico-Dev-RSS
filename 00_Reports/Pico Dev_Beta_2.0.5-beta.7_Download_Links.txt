@@ -189,11 +189,11 @@ DOWNLOAD / UPDATE / INSTALLER LINKS
     Purpose: GitHub tree API used to enumerate plugin files before downloading them.
     Type: Metadata API.
 
-41. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_plugins/main/android-dev/skills/android-dev/scripts/<file>
+41. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/android-dev/skills/android-dev/scripts/<file>
     Purpose: Android Development setup scripts.
     Type: Direct script download template.
 
-42. https://raw.githubusercontent.com/Santoshkurmi/Pico Dev_plugins/main/rea/skills/rea/scripts/<file>
+42. https://raw.githubusercontent.com/Santoshkurmi/Pico-Dev-RSS/main/rea/skills/rea/scripts/<file>
     Purpose: REA setup scripts.
     Type: Direct script download template.
 

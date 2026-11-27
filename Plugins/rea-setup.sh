@@ -6,7 +6,7 @@
 #   bash rea-setup.sh android              everything needed to analyze APKs (recommended)
 #   bash rea-setup.sh container base java  any steps, in the order given
 #
-# Source: Pico Dev_plugins/rea/skills/rea/scripts/ (Pico Dev downloads this folder into $PREFIX/share/Pico Dev-rea/).
+# Source: Pico-Dev-RSS/rea/skills/rea/scripts/ (Pico Dev downloads this folder into $PREFIX/share/picodev-rea/).
 set -uo pipefail
 
 say() { printf '==> %s\n' "$*"; }
@@ -15,12 +15,12 @@ die() { printf '✗ %s\n' "$*" >&2; exit 1; }
 
 # Where REA runs. In Pico Dev's terminal (Termux): a proot-distro Ubuntu container. In Pico Dev's Ubuntu chroot (rooted
 # phones): that Ubuntu itself, no container. There Pico Dev runs this script inside the chroot as root with
-# PICO DEV_RUNTIME=chroot and PICO DEV_USER=<the chroot's user>: the tools go to /opt/Pico Dev (every user can run them),
-# the launchers to /usr/local/bin and the tool groups to the user's ~/.config/Pico Dev/rea.
+# PICO_DEV_RUNTIME=chroot and PICO_DEV_USER=<the chroot's user>: the tools go to /opt/picodev (every user can run them),
+# the launchers to /usr/local/bin and the tool groups to the user's ~/.config/picodev/rea.
 # The chroot APK can use either one (it switches between them), so the script also checks where it really is: Android
 # has no /usr, so an Ubuntu apt-get there means Ubuntu itself; under proot (the container entered with proot-distro
 # login) the process is traced by proot. A runtime that does not match the place stops here, before anything installs
-# into the wrong one. Without PICO DEV_RUNTIME the place decides.
+# into the wrong one. Without PICO_DEV_RUNTIME the place decides.
 HOST=termux
 if [ -f /etc/os-release ] && [ -x /usr/bin/apt-get ]; then
     HOST=chroot
@@ -28,29 +28,29 @@ if [ -f /etc/os-release ] && [ -x /usr/bin/apt-get ]; then
     if [ -n "$tp" ] && [ "$tp" != 0 ] && grep -qi proot "/proc/$tp/comm" 2>/dev/null; then HOST=proot; fi
 fi
 [ "$HOST" = proot ] && die "This is inside the proot-distro container. Run the script in Pico Dev's terminal (Termux), outside the container: type exit first."
-RUNTIME="${PICO DEV_RUNTIME:-$HOST}"
+RUNTIME="${PICO_DEV_RUNTIME:-$HOST}"
 case "$RUNTIME" in
     chroot | termux) ;;
-    *) die "Unknown PICO DEV_RUNTIME '$RUNTIME': use chroot (Pico Dev's Ubuntu chroot) or termux (proot-distro container)" ;;
+    *) die "Unknown PICO_DEV_RUNTIME '$RUNTIME': use chroot (Pico Dev's Ubuntu chroot) or termux (proot-distro container)" ;;
 esac
-[ "$RUNTIME" = chroot ] && [ "$HOST" = termux ] && die "PICO DEV_RUNTIME=chroot, but this is Termux (Pico Dev's own environment), not the Ubuntu chroot. Run it inside the chroot, or without PICO DEV_RUNTIME here to use the proot container."
-[ "$RUNTIME" = termux ] && [ "$HOST" = chroot ] && die "PICO DEV_RUNTIME=termux, but this is the Ubuntu chroot. Run it here as: sudo env PICO DEV_RUNTIME=chroot bash $0 ${*:-help}"
+[ "$RUNTIME" = chroot ] && [ "$HOST" = termux ] && die "PICO_DEV_RUNTIME=chroot, but this is Termux (Pico Dev's own environment), not the Ubuntu chroot. Run it inside the chroot, or without PICO_DEV_RUNTIME here to use the proot container."
+[ "$RUNTIME" = termux ] && [ "$HOST" = chroot ] && die "PICO_DEV_RUNTIME=termux, but this is the Ubuntu chroot. Run it here as: sudo env PICO_DEV_RUNTIME=chroot bash $0 ${*:-help}"
 C="${REA_CONTAINER:-ubuntu}"
 IMAGE="${REA_IMAGE:-ubuntu:24.04}"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 if [ "$RUNTIME" = chroot ]; then
-    [ "$(id -u)" = 0 ] || die "In the Ubuntu chroot this script runs as root: sudo env PICO DEV_RUNTIME=chroot bash $0 ${*:-help}"
-    U="${PICO DEV_USER:-${SUDO_USER:-}}"
+    [ "$(id -u)" = 0 ] || die "In the Ubuntu chroot this script runs as root: sudo env PICO_DEV_RUNTIME=chroot bash $0 ${*:-help}"
+    U="${PICO_DEV_USER:-${SUDO_USER:-}}"
     UH=""
     [ -n "$U" ] && UH=$(getent passwd "$U" | cut -d: -f6)
     [ -n "$UH" ] || { U=""; UH=/root; }
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin DEBIAN_FRONTEND=noninteractive
     ROOTFS=""
-    T=/opt/Pico Dev/tools
-    NVM_HOME=/opt/Pico Dev/nvm
-    SHARE=/opt/Pico Dev/share/Pico Dev-rea
+    T=/opt/picodev/tools
+    NVM_HOME=/opt/picodev/nvm
+    SHARE=/opt/picodev/share/picodev-rea
     BIN=/usr/local/bin
-    CONF="$UH/.config/Pico Dev/rea"
+    CONF="$UH/.config/picodev/rea"
 else
     P=/data/data/com.termux/files/usr
     H=/data/data/com.termux/files/home
@@ -58,9 +58,9 @@ else
     ROOTFS="$P/var/lib/proot-distro/containers/$C/rootfs"
     T=/root/tools
     NVM_HOME=/root/.nvm
-    SHARE="$P/share/Pico Dev-rea"
+    SHARE="$P/share/picodev-rea"
     BIN="$P/bin"
-    CONF="$H/.config/Pico Dev/rea"
+    CONF="$H/.config/picodev/rea"
 fi
 NODE_MAJOR=24
 NVM_VERSION=v0.40.3
@@ -160,7 +160,7 @@ set -e
 export NVM_DIR=$NVM_HOME
 prev=\$(readlink -f $T/node 2>/dev/null || true)
 if [ ! -s \"\$NVM_DIR/nvm.sh\" ]; then
-    # the nvm installer creates only its default folder (~/.nvm): the chroot folder /opt/Pico Dev/nvm must exist first
+    # the nvm installer creates only its default folder (~/.nvm): the chroot folder /opt/picodev/nvm must exist first
     mkdir -p \"\$NVM_DIR\"
     curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_VERSION/install.sh | PROFILE=/dev/null bash
 fi
@@ -397,10 +397,10 @@ step_remove_container() {
 usage() {
     cat <<EOF
 Pico Dev REA setup. In Pico Dev's terminal REA runs in the proot-distro container '$C' ($IMAGE); in Pico Dev's
-Ubuntu chroot it runs in the chroot itself (tools in /opt/Pico Dev, launchers in /usr/local/bin).
+Ubuntu chroot it runs in the chroot itself (tools in /opt/picodev, launchers in /usr/local/bin).
 
 Usage: bash rea-setup.sh STEP [STEP...]
-       sudo env PICO DEV_RUNTIME=chroot bash rea-setup.sh STEP [STEP...]   (in the Ubuntu chroot; Pico Dev's Settings → REA
+       sudo env PICO_DEV_RUNTIME=chroot bash rea-setup.sh STEP [STEP...]   (in the Ubuntu chroot; Pico Dev's Settings → REA
                                                                      does this for you)
 
 Groups of steps
@@ -423,7 +423,7 @@ Steps (each can be rerun to repair or update)
   firmware    binwalk
 
 Other
-  tools       refresh ~/.config/Pico Dev/rea/tools.json (REA's tool list)
+  tools       refresh ~/.config/picodev/rea/tools.json (REA's tool list)
   doctor      rea doctor: which tools and engines are ready
   status      show what is installed
   uninstall   remove REA, its jars and the launcher (keeps the container)

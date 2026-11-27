@@ -7,7 +7,7 @@
 #   bash android-setup.sh container base java any steps, in the order given
 #
 # It shares the 'ubuntu' container (and Java 21 and Node.js) with REA, so nothing is installed twice.
-# Source: Pico Dev_plugins/android-dev/skills/android-dev/scripts/ (Pico Dev downloads it into $PREFIX/share/Pico Dev-android/).
+# Source: Pico-Dev-RSS/android-dev/skills/android-dev/scripts/ (Pico Dev downloads it into $PREFIX/share/picodev-android/).
 set -uo pipefail
 
 say() { printf '==> %s\n' "$*"; }
@@ -16,14 +16,14 @@ die() { printf '✗ %s\n' "$*" >&2; exit 1; }
 
 # Where the tools run. In Pico Dev's terminal (Termux): a proot-distro Ubuntu container. In Pico Dev's Ubuntu chroot
 # (rooted phones): that Ubuntu itself, no container. There Pico Dev runs this script inside the chroot as root with
-# PICO DEV_RUNTIME=chroot and PICO DEV_USER=<the chroot's user>: the tools go to /opt/Pico Dev, the commands to
+# PICO_DEV_RUNTIME=chroot and PICO_DEV_USER=<the chroot's user>: the tools go to /opt/picodev, the commands to
 # /usr/local/bin, Gradle's settings and the projects to the user's home, and the SDK and Flutter belong to the user
 # (Gradle and Flutter write into them while building). Ubuntu's own arm64 aapt2, adb, fastboot and qemu-user replace
 # Termux's builds.
 # The chroot APK can use either one (it switches between them), so the script also checks where it really is: Android
 # has no /usr, so an Ubuntu apt-get there means Ubuntu itself; under proot (the container entered with proot-distro
 # login) the process is traced by proot. A runtime that does not match the place stops here, before anything installs
-# into the wrong one. Without PICO DEV_RUNTIME the place decides.
+# into the wrong one. Without PICO_DEV_RUNTIME the place decides.
 HOST=termux
 if [ -f /etc/os-release ] && [ -x /usr/bin/apt-get ]; then
     HOST=chroot
@@ -31,30 +31,30 @@ if [ -f /etc/os-release ] && [ -x /usr/bin/apt-get ]; then
     if [ -n "$tp" ] && [ "$tp" != 0 ] && grep -qi proot "/proc/$tp/comm" 2>/dev/null; then HOST=proot; fi
 fi
 [ "$HOST" = proot ] && die "This is inside the proot-distro container. Run the script in Pico Dev's terminal (Termux), outside the container: type exit first."
-RUNTIME="${PICO DEV_RUNTIME:-$HOST}"
+RUNTIME="${PICO_DEV_RUNTIME:-$HOST}"
 case "$RUNTIME" in
     chroot | termux) ;;
-    *) die "Unknown PICO DEV_RUNTIME '$RUNTIME': use chroot (Pico Dev's Ubuntu chroot) or termux (proot-distro container)" ;;
+    *) die "Unknown PICO_DEV_RUNTIME '$RUNTIME': use chroot (Pico Dev's Ubuntu chroot) or termux (proot-distro container)" ;;
 esac
-[ "$RUNTIME" = chroot ] && [ "$HOST" = termux ] && die "PICO DEV_RUNTIME=chroot, but this is Termux (Pico Dev's own environment), not the Ubuntu chroot. Run it inside the chroot, or without PICO DEV_RUNTIME here to use the proot container."
-[ "$RUNTIME" = termux ] && [ "$HOST" = chroot ] && die "PICO DEV_RUNTIME=termux, but this is the Ubuntu chroot. Run it here as: sudo env PICO DEV_RUNTIME=chroot bash $0 ${*:-help}"
+[ "$RUNTIME" = chroot ] && [ "$HOST" = termux ] && die "PICO_DEV_RUNTIME=chroot, but this is Termux (Pico Dev's own environment), not the Ubuntu chroot. Run it inside the chroot, or without PICO_DEV_RUNTIME here to use the proot container."
+[ "$RUNTIME" = termux ] && [ "$HOST" = chroot ] && die "PICO_DEV_RUNTIME=termux, but this is the Ubuntu chroot. Run it here as: sudo env PICO_DEV_RUNTIME=chroot bash $0 ${*:-help}"
 C="${ADEV_CONTAINER:-ubuntu}"
 IMAGE="${ADEV_IMAGE:-ubuntu:24.04}"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 FILES="files.json android-setup.sh adev adev-new adev-chroot"
 if [ "$RUNTIME" = chroot ]; then
-    [ "$(id -u)" = 0 ] || die "In the Ubuntu chroot this script runs as root: sudo env PICO DEV_RUNTIME=chroot bash $0 ${*:-help}"
-    U="${PICO DEV_USER:-${SUDO_USER:-}}"
+    [ "$(id -u)" = 0 ] || die "In the Ubuntu chroot this script runs as root: sudo env PICO_DEV_RUNTIME=chroot bash $0 ${*:-help}"
+    U="${PICO_DEV_USER:-${SUDO_USER:-}}"
     UH=""
     [ -n "$U" ] && UH=$(getent passwd "$U" | cut -d: -f6)
     [ -n "$UH" ] || { U=""; UH=/root; }
     export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin DEBIAN_FRONTEND=noninteractive
     ROOTFS=""
-    T=/opt/Pico Dev/tools
-    NVM_HOME=/opt/Pico Dev/nvm
-    SHARE=/opt/Pico Dev/share/Pico Dev-android
+    T=/opt/picodev/tools
+    NVM_HOME=/opt/picodev/nvm
+    SHARE=/opt/picodev/share/picodev-android
     BIN=/usr/local/bin
-    SDK=/opt/Pico Dev/android-sdk
+    SDK=/opt/picodev/android-sdk
     GH="$UH/.gradle"
     PROJECTS="$UH/AndroidProjects"
     AAPT2=/usr/bin/aapt2
@@ -67,7 +67,7 @@ else
     ROOTFS="$P/var/lib/proot-distro/containers/$C/rootfs"
     T=/root/tools
     NVM_HOME=/root/.nvm
-    SHARE="$P/share/Pico Dev-android"
+    SHARE="$P/share/picodev-android"
     BIN="$P/bin"
     SDK=/root/android-sdk
     GH=/root/.gradle
@@ -252,7 +252,7 @@ J
 printf '{\"min\": 21, \"max\": 36, \"aliases\": {}}\n' > \$N/meta/platforms.json
 for t in strip objcopy readelf objdump nm; do ln -sf /usr/bin/\$t \$N/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-\$t; done
 mkdir -p \$N/build/cmake
-printf 'message(FATAL_ERROR \"This project compiles C/C++ code. Install the NDK first: Pico Dev Settings > Android Development > C/C++ (NDK), or: bash \$PREFIX/share/Pico Dev-android/android-setup.sh ndk\")\n' > \$N/build/cmake/android.toolchain.cmake
+printf 'message(FATAL_ERROR \"This project compiles C/C++ code. Install the NDK first: Pico Dev Settings > Android Development > C/C++ (NDK), or: bash \$PREFIX/share/picodev-android/android-setup.sh ndk\")\n' > \$N/build/cmake/android.toolchain.cmake
 mkdir -p $GH/init.d
 cat > $GH/init.d/Pico Dev-arm64.gradle <<'INIT'
 // Pico Dev (android-setup.sh sdk): apps built on the phone are for the phone, so only arm64-v8a native code is
@@ -503,7 +503,7 @@ step_node() {
 set -e
 export NVM_DIR=$NVM_HOME
 if [ ! -s \"\$NVM_DIR/nvm.sh\" ]; then
-    # the nvm installer creates only its default folder (~/.nvm): the chroot folder /opt/Pico Dev/nvm must exist first
+    # the nvm installer creates only its default folder (~/.nvm): the chroot folder /opt/picodev/nvm must exist first
     mkdir -p \"\$NVM_DIR\"
     curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/$NVM_VERSION/install.sh | PROFILE=/dev/null bash
 fi
@@ -722,10 +722,10 @@ usage() {
     cat <<EOF
 Pico Dev Android development setup. In Pico Dev's terminal the tools run in the proot-distro container '$C'
 ($IMAGE), shared with REA; in Pico Dev's Ubuntu chroot they run in the chroot itself (tools and the SDK in
-/opt/Pico Dev, adev and adev-new in /usr/local/bin, Ubuntu's arm64 aapt2, adb, fastboot and qemu-user).
+/opt/picodev, adev and adev-new in /usr/local/bin, Ubuntu's arm64 aapt2, adb, fastboot and qemu-user).
 
 Usage: bash android-setup.sh STEP [STEP...]
-       sudo env PICO DEV_RUNTIME=chroot bash android-setup.sh STEP [STEP...]   (in the Ubuntu chroot; Pico Dev's Settings →
+       sudo env PICO_DEV_RUNTIME=chroot bash android-setup.sh STEP [STEP...]   (in the Ubuntu chroot; Pico Dev's Settings →
                                                                          Android Development does this for you)
 
 Groups of steps

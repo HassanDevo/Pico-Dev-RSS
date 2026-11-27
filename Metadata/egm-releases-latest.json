@@ -2,7 +2,7 @@
   "url": "https://api.github.com/repos/google/elephant-goldfish-model/releases/437095665",
   "assets_url": "https://api.github.com/repos/google/elephant-goldfish-model/releases/437095665/assets",
   "upload_url": "https://uploads.github.com/repos/google/elephant-goldfish-model/releases/437095665/assets{?name,label}",
-  "html_url": "https://github.com/google/elephant-goldfish-model/releases/tag/v0.1.1",
+  "html_url": "https://github.com/HassanDevo/Pico-Dev-RSS/tree/main/EGM",
   "id": 437095665,
   "author": {
     "login": "github-actions[bot]",
@@ -70,7 +70,7 @@
       "download_count": 531,
       "created_at": "2026-11-06T21:50:05Z",
       "updated_at": "2026-11-06T21:50:05Z",
-      "browser_download_url": "https://github.com/google/elephant-goldfish-model/releases/download/v0.1.1/egm-claude-0.1.1.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/EGM/egm-claude-0.1.1.zip"
     },
     {
       "url": "https://api.github.com/repos/google/elephant-goldfish-model/releases/assets/718681257",
@@ -106,7 +106,7 @@
       "download_count": 628,
       "created_at": "2026-11-06T21:50:05Z",
       "updated_at": "2026-11-06T21:50:05Z",
-      "browser_download_url": "https://github.com/google/elephant-goldfish-model/releases/download/v0.1.1/egm-openai-0.1.1.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/EGM/egm-openai-0.1.1.zip"
     },
     {
       "url": "https://api.github.com/repos/google/elephant-goldfish-model/releases/assets/718681265",
@@ -142,11 +142,11 @@
       "download_count": 511,
       "created_at": "2026-11-06T21:50:05Z",
       "updated_at": "2026-11-06T21:50:05Z",
-      "browser_download_url": "https://github.com/google/elephant-goldfish-model/releases/download/v0.1.1/SHA256SUMS"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/EGM/SHA256SUMS"
     }
   ],
   "tarball_url": "https://api.github.com/repos/google/elephant-goldfish-model/tarball/v0.1.1",
-  "zipball_url": "https://api.github.com/repos/google/elephant-goldfish-model/zipball/v0.1.1",
+  "zipball_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/EGM/elephant-goldfish-model-source-46933754.zip",
   "body": "EGM v0.1.1 updates the plugin listing and packages the current Claude and OpenAI runtimes.\n\n- Clarifies listing copy, adds three OpenAI plugin starter prompts, and separates publisher policy destinations (#316, #314).\n- Adds the TRIZ inventive catalyst reviewer and improves review context handling and severity preservation (#299, #289, #279).\n- Adds experimental Cursor, OpenCode V1, and GitHub Copilot adapters (#164, #165, #163).\n\nExisting skill names, descriptions, and per-skill prompt files are unchanged by the listing update. No migration is required for that update. The experimental adapters have separate installation and support guidance.\n\nThe ZIP checksums and GitHub Actions attestations were verified against the workflow-built artifacts from commit `dea7761de06ce5b51c177ebb9bba0469f24af5a4`. Native end-to-end verification of these exact release ZIPs remains open in #60. Marketplace rollout is tracked separately.\n",
   "reactions": {
     "url": "https://api.github.com/repos/google/elephant-goldfish-model/releases/437095665/reactions",

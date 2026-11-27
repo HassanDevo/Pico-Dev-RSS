@@ -2,7 +2,7 @@
   "url": "https://api.github.com/repos/termux/termux-packages/releases/445697407",
   "assets_url": "https://api.github.com/repos/termux/termux-packages/releases/445697407/assets",
   "upload_url": "https://uploads.github.com/repos/termux/termux-packages/releases/445697407/assets{?name,label}",
-  "html_url": "https://github.com/termux/termux-packages/releases/tag/bootstrap-2026.11.15-r1%2Bapt.android-7",
+  "html_url": "https://github.com/HassanDevo/Pico-Dev-RSS/tree/main/Rootfs",
   "id": 445697407,
   "author": {
     "login": "github-actions[bot]",
@@ -70,7 +70,7 @@
       "download_count": 4534,
       "created_at": "2026-11-15T00:19:30Z",
       "updated_at": "2026-11-15T00:19:32Z",
-      "browser_download_url": "https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1%2Bapt.android-7/bootstrap-aarch64.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Rootfs/bootstrap-aarch64.zip"
     },
     {
       "url": "https://api.github.com/repos/termux/termux-packages/releases/assets/749241539",
@@ -106,7 +106,7 @@
       "download_count": 436,
       "created_at": "2026-11-15T00:19:33Z",
       "updated_at": "2026-11-15T00:19:34Z",
-      "browser_download_url": "https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1%2Bapt.android-7/bootstrap-arm.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Rootfs/bootstrap-arm.zip"
     },
     {
       "url": "https://api.github.com/repos/termux/termux-packages/releases/assets/749241597",
@@ -142,7 +142,7 @@
       "download_count": 129,
       "created_at": "2026-11-15T00:19:34Z",
       "updated_at": "2026-11-15T00:19:36Z",
-      "browser_download_url": "https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1%2Bapt.android-7/bootstrap-i686.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Rootfs/bootstrap-i686.zip"
     },
     {
       "url": "https://api.github.com/repos/termux/termux-packages/releases/assets/749241670",
@@ -178,7 +178,7 @@
       "download_count": 624,
       "created_at": "2026-11-15T00:19:37Z",
       "updated_at": "2026-11-15T00:19:38Z",
-      "browser_download_url": "https://github.com/termux/termux-packages/releases/download/bootstrap-2026.11.15-r1%2Bapt.android-7/bootstrap-x86_64.zip"
+      "browser_download_url": "https://raw.githubusercontent.com/HassanDevo/Pico-Dev-RSS/main/Rootfs/bootstrap-x86_64.zip"
     }
   ],
   "tarball_url": "https://api.github.com/repos/termux/termux-packages/tarball/bootstrap-2026.11.15-r1+apt.android-7",
