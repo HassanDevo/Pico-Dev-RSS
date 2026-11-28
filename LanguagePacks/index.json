@@ -136,6 +136,34 @@
       "updated": "2026-11-25",
       "size": 1126074,
       "sha256": "ae9e238e11dc3e8fb1974caf7ccce37c9ab0f6578f2249fb85582f0b99b1b5c7"
+    },
+    {
+      "id": "vi",
+      "code": "vi",
+      "name": "Vietnamese",
+      "native_name": "Tiếng Việt",
+      "variant": "",
+      "rtl": false,
+      "description": "Bản dịch tiếng Việt cho Pico Dev",
+      "authors": [
+        {
+          "name": "Pico Dev AI"
+        },
+        {
+          "name": "anhthao121",
+          "github": "anhthao121"
+        }
+      ],
+      "based_on": "",
+      "app_version": "2.0.5-beta.7",
+      "translated": 7578,
+      "outdated": 0,
+      "total": 7651,
+      "path": "LanguagePacks/vi.json",
+      "commit": "",
+      "updated": "2026-11-27",
+      "size": 758083,
+      "sha256": "746aa13ce530c917e3cec1f8d6fa6cab00eb83f3cbce83b7ed7df9d28fed9275"
     }
   ]
 }
