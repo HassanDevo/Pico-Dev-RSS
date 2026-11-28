@@ -7,7 +7,8 @@
       "name": "REA · Reverse Engineering",
       "version": "1.1.0",
       "description": "Skill for REA (Reverse Engineer Anything): set it up, check its MCP server, and take apart APKs, Flutter, React Native and native code.",
-      "icon": "icon.svg"
+      "icon": "icon.svg",
+      "zip": "Plugins/rea.zip"
     },
     {
       "path": "android-dev",
@@ -15,7 +16,8 @@
       "name": "Android Development",
       "version": "1.1.0",
       "description": "Skill for building Android apps on the phone (Kotlin / Compose, Flutter, React Native): set up the tools, create projects, build and install APKs.",
-      "icon": "icon.svg"
+      "icon": "icon.svg",
+      "zip": "Plugins/android-dev.zip"
     }
   ]
 }

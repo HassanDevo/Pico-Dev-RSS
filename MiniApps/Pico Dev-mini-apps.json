@@ -1,7 +1,7 @@
 {
   "name": "Pico Dev mini apps",
   "format": 1,
-  "generated": "2026-11-27T19:11:29.245Z",
+  "generated": "2026-11-28T08:00:00.000Z",
   "apps": [
     {
       "path": "apps/agy-accounts",
@@ -25,7 +25,8 @@
           ]
         }
       },
-      "updated": "2026-11-27T19:11:29.244Z"
+      "updated": "2026-11-27T19:11:29.244Z",
+      "icon": "icons/com.picodev.agyaccounts.png"
     },
     {
       "path": "apps/devtools",
@@ -61,7 +62,8 @@
           }
         }
       },
-      "updated": "2026-11-27T19:11:29.244Z"
+      "updated": "2026-11-27T19:11:29.244Z",
+      "icon": "icons/com.picodev.devtools.png"
     },
     {
       "path": "apps/explorer",
@@ -92,7 +94,8 @@
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-27T19:11:29.244Z"
+      "updated": "2026-11-27T19:11:29.244Z",
+      "icon": "icons/com.picodev.explorer.png"
     },
     {
       "path": "apps/focus",
@@ -110,7 +113,8 @@
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-27T19:11:29.244Z"
+      "updated": "2026-11-27T19:11:29.244Z",
+      "icon": "icons/com.picodev.focus.png"
     },
     {
       "path": "apps/gallery",
@@ -140,7 +144,8 @@
         },
         "camera": true
       },
-      "updated": "2026-11-27T19:11:29.244Z"
+      "updated": "2026-11-27T19:11:29.244Z",
+      "icon": "icons/com.picodev.gallery.png"
     },
     {
       "path": "apps/habits",
@@ -157,7 +162,8 @@
       "permissions": {
         "notifications": true
       },
-      "updated": "2026-11-27T19:11:29.245Z"
+      "updated": "2026-11-27T19:11:29.245Z",
+      "icon": "icons/com.picodev.habits.png"
     },
     {
       "path": "apps/notes",
@@ -183,7 +189,8 @@
           ]
         }
       },
-      "updated": "2026-11-27T19:11:29.245Z"
+      "updated": "2026-11-27T19:11:29.245Z",
+      "icon": "icons/com.picodev.notes.png"
     },
     {
       "path": "apps/showcase",
@@ -234,7 +241,8 @@
           "notes_mcp": "read"
         }
       },
-      "updated": "2026-11-27T19:11:29.245Z"
+      "updated": "2026-11-27T19:11:29.245Z",
+      "icon": "icons/com.picodev.showcase.png"
     },
     {
       "path": "apps/weather",
@@ -258,7 +266,8 @@
         "notifications": true,
         "background": true
       },
-      "updated": "2026-11-27T19:11:29.245Z"
+      "updated": "2026-11-27T19:11:29.245Z",
+      "icon": "icons/com.picodev.weather.png"
     }
   ]
 }
