@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project": "Meta Suite Page Management",
+  "version": "2.4.1",
+  "status": "ready",
+  "connection": {
+    "server": "meta-scheduler-mcp",
+    "wsUrl": "ws://127.0.0.1:8765",
+    "port": 8765,
+    "zeroSetup": true,
+    "oneTimeCheck": true,
+    "status": "ready"
+  },
+  "deepxFlowBridge": {
+    "server": "built-in",
+    "engine": "DeepX Google Flow engine inside this plugin (deepx-bundle.js)",
+    "status": "ready"
+  },
+  "accounts": {
+    "target": "managed_page",
+    "discovery": "auto_detect",
+    "businessSuite": {
+      "url": "https://business.facebook.com/"
+    }
+  },
+  "antigravityDirectives": {
+    "suppressConnectionJsonDumps": true,
+    "suppressExploratoryProbing": true,
+    "checkConnectionOnce": true,
+    "instantTwoStepDispatch": true,
+    "antiCommentBoxLock": true,
+    "fastClipboardPaste": true,
+    "realThumbnailUpload": true
+  }
+}

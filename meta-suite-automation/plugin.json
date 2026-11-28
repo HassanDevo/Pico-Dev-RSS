@@ -1,0 +1,32 @@
+{
+  "name": "meta-suite-automation",
+  "displayName": "Meta Suite Page Management",
+  "version": "2.9.4",
+  "description": "Master Autonomous Meta Suite Production Engine (v2.9.4): Facebook Page management that posts through Meta Business Suite (business.facebook.com composer, native scheduling, Reels thumbnails, screen locked while working, asks timing / thumbnail / caption approval first, batch projects run to completion, proof screenshot after every post), 1-click publishing & scheduling of Page Reels, Videos, Photos, Stories with custom thumbnails/covers, scheduled-queue manager, viral SEO + Meta algorithm audit, live trend radar (Google/YouTube, Reddit, X), anti-ad organic shield, and built-in DeepX Google Flow media engine (login check → Agent/Standard question → autopilot, automatic Agent fallback on unusual-activity blocks).",
+  "logo": "assets/logo.png",
+  "author": {
+    "name": "HassanDevo",
+    "url": "https://github.com/HassanDevo"
+  },
+  "keywords": [
+    "meta",
+    "meta business suite",
+    "facebook pages",
+    "page management",
+    "social automation",
+    "deepx",
+    "google flow",
+    "scheduler",
+    "reels",
+    "video thumbnail"
+  ],
+  "suggestedPrompts": [
+    "Post or schedule a viral reel to your managed Facebook Page with a custom thumbnail",
+    "Schedule a multi-post content marathon across peak audience windows",
+    "Generate a viral SEO package and schedule posts via Meta Business Suite"
+  ],
+  "homepage": "https://github.com/HassanDevo/Pico-Dev-RSS",
+  "repository": "https://github.com/HassanDevo/Pico-Dev-RSS",
+  "license": "MIT",
+  "toolCount": 44
+}

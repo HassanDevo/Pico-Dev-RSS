@@ -1,0 +1,31 @@
+{
+  "name": "facebook-automation",
+  "displayName": "Facebook Automation & SEO Studio",
+  "version": "1.8.4",
+  "description": "Pre-Trained Phone (Desktop-on-Phone www.facebook.com & Mobile Touch m.facebook.com) and Desktop Facebook Automation Engine (v1.8.4): Dedicated Feed Posts (Text/Photo/Carousel/Video), Anti-Comment Firewall (strictly never posts into comments), Reels (/reels/create + automatic mobile fallback + video event dispatch), Stories (/stories/create Photo/Video with overlay story_text & Text Story), Real Video/Reel Thumbnail & Cover Uploader, Multiline Formatted Caption Engine (Title + Description + Bullets + CTA + 3-6 #Hashtags), and Zero-Overthinking 1-Call Dispatch, and built-in DeepX Google Flow engine for AI thumbnails, Reel covers and post designs (login check \u2192 Agent/Standard question \u2192 autopilot, automatic Agent fallback on unusual-activity blocks).",
+  "logo": "icon.png",
+  "author": {
+    "name": "HassanDevo",
+    "url": "https://github.com/HassanDevo"
+  },
+  "keywords": [
+    "facebook",
+    "automation",
+    "social-media",
+    "reels",
+    "stories",
+    "seo",
+    "anti-duplicate",
+    "picodev-browser",
+    "kiwi-browser",
+    "mobile"
+  ],
+  "suggestedPrompts": [
+    "Publish a high-CTR photo post to your Facebook profile",
+    "Post a vertical Reel with custom thumbnail and viral SEO title",
+    "Publish a Facebook story with clean overlay text"
+  ],
+  "homepage": "https://github.com/HassanDevo/Pico-Dev-RSS",
+  "repository": "https://github.com/HassanDevo/Pico-Dev-RSS",
+  "license": "MIT"
+}

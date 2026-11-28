@@ -1,0 +1,7 @@
+label	kind	file	at	dur	gain_db	fade_in	fade_out
+bed	loop	audio/music/documentary_and_history/history_serious.mp3	0.0	all	-24	1.5	2.5
+pop_01	one	audio/sfx/pop/pop_up.wav	@01	-	-14	0	0
+click_02	one	audio/sfx/click/click_2.wav	@02	-	-14	0	0
+riser_03	one	audio/sfx/riser/up_riser.wav	@03	-	-14	0	0
+photo_04	one	audio/sfx/camera/camera_shutter_2.wav	@04	-	-14	0	0
+whoosh_05	one	audio/sfx/whoosh/whoosh_hit_1.wav	@05	-	-14	0	0

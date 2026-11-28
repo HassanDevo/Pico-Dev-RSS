@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "project": "Facebook Automation & SEO Studio",
+  "version": "1.8.1",
+  "status": "ready",
+  "connection": {
+    "server": "meta-scheduler-mcp",
+    "wsUrl": "ws://127.0.0.1:8765",
+    "port": 8765,
+    "zeroSetup": true,
+    "oneTimeCheck": true,
+    "status": "ready"
+  },
+  "deepxFlowBridge": {
+    "server": "built-in",
+    "engine": "DeepX Google Flow engine inside this plugin (deepx-bundle.js)",
+    "tools": [
+      "deepx_generate",
+      "deepx_job_status",
+      "deepx_check_login"
+    ],
+    "status": "ready"
+  },
+  "accounts": {
+    "target": "user_profile",
+    "discovery": "auto_detect",
+    "facebook": {
+      "url": "https://www.facebook.com/"
+    }
+  },
+  "antigravityDirectives": {
+    "suppressConnectionJsonDumps": true,
+    "suppressExploratoryProbing": true,
+    "checkConnectionOnce": true,
+    "instantTwoStepDispatch": true,
+    "antiCommentBoxLock": true,
+    "fastClipboardPaste": true,
+    "realThumbnailUpload": true
+  }
+}
