@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "bang-motion",
+  "name": "Bang Motion (Pico Dev)",
+  "version": "1.19.0",
+  "description": "Browser motion graphics that move like real video, not slides: openers, promos, bumpers, kinetic typography and five explainer styles, built as a single autoplaying index.html. Ported by HassanDevo / Pico Dev.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

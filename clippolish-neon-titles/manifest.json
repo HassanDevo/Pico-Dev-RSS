@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-neon-titles",
+  "name": "ClipPolish Neon Titles",
+  "version": "1.0.0",
+  "description": "A glowing title scene, a “neon fly-through” motion and a dark neon style pack for studio videos. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-badges",
+  "name": "ClipPolish Badges",
+  "version": "1.0.0",
+  "description": "A spinning starburst badge with your own label and colour. Edit the text and colour any time in the editor. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

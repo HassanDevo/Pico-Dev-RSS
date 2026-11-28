@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-free-sounds",
+  "name": "ClipPolish Free Sounds",
+  "version": "1.0.0",
+  "description": "30 short sounds for edits: whooshes, risers, impacts, pops, clicks, dings, typing, a camera shutter, a cash register, boing, slide whistles and more. Made from scratch by Pico Dev (synthesised, no samples): free to use in any video. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

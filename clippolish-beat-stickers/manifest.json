@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-beat-stickers",
+  "name": "ClipPolish Beat Stickers",
+  "version": "1.0.0",
+  "description": "A sticker pack (star, sparkle, heart and a pulsing ring), a walkie-talkie sound preset and a “Beat flash” effect that moves with the music. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

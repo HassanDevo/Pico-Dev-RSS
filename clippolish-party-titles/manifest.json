@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-party-titles",
+  "name": "ClipPolish Party Titles",
+  "version": "1.0.0",
+  "description": "A celebration title scene with confetti and glowing text. Builds on Particle pack and Neon titles: install those first. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

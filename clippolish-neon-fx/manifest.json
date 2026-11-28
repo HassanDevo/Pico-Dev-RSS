@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-neon-fx",
+  "name": "ClipPolish Neon FX",
+  "version": "1.0.0",
+  "description": "A glowing neon edge for any element, a jelly wobble you can drop on titles and stickers, and a snappy “whip” easing curve. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

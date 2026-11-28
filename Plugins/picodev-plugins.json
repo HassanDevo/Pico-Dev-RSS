@@ -84,6 +84,117 @@
       "zip": "https://github.com/HassanDevo/Pico-Dev-RSS/releases/download/plugins-v1.0.0/deepx-google-flow.zip",
       "developer": "HassanDevo",
       "downloadUrl": "https://github.com/HassanDevo/Pico-Dev-RSS/releases/download/plugins-v1.0.0/deepx-google-flow.zip"
+    },
+    {
+      "path": "3d-video-editing-studio",
+      "id": "3d-video-editing-studio",
+      "name": "3D Video Editing Studio (Stick Story)",
+      "version": "1.2.0",
+      "description": "Historical Stick Story / stickman video production engine restored from the earlier upstream tree: autonomous 9:16 code-driven shorts with Kokoro neural TTS, Whisper word-synced captions, acting stick figures, day/night rooms, gold step cards, procedural sound and --fast/--turbo/--1080p render presets. Full source is in the release ZIP; zero API keys.",
+      "icon": "icon.png",
+      "zip": "https://github.com/HassanDevo/Pico-Dev-RSS/releases/download/plugins-v1.0.0/3d-video-editing-studio.zip",
+      "developer": "HassanDevo",
+      "downloadUrl": "https://github.com/HassanDevo/Pico-Dev-RSS/releases/download/plugins-v1.0.0/3d-video-editing-studio.zip"
+    },
+    {
+      "path": "bang-motion",
+      "id": "bang-motion",
+      "name": "Bang Motion (Pico Dev)",
+      "version": "1.19.0",
+      "description": "Browser motion graphics that move like real video instead of slides: openers, promos, bumpers, idents, kinetic typography, lower thirds and five explainer styles, built as one autoplaying HTML file. Includes starter scenes, references, gallery and helper scripts; ported by HassanDevo / Pico Dev.",
+      "icon": "icon.svg",
+      "zip": "Plugins/bang-motion.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-badges",
+      "id": "clippolish-badges",
+      "name": "ClipPolish Badges",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Badges data pack: a spinning starburst badge with editable label and colour.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-badges.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-beat-stickers",
+      "id": "clippolish-beat-stickers",
+      "name": "ClipPolish Beat Stickers",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Beat Stickers data pack: star, sparkle, heart and pulsing-ring stickers, walkie-talkie audio preset and a beat-reactive flash effect.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-beat-stickers.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-film-looks",
+      "id": "clippolish-film-looks",
+      "name": "ClipPolish Film Looks",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Film Looks data pack: warm film and cool teal night 3D LUT colour looks.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-film-looks.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-free-sounds",
+      "id": "clippolish-free-sounds",
+      "name": "ClipPolish Free Sounds",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Free Sounds data pack: 30 original short sounds (whooshes, risers, impacts, pops, dings, typing, shutter and comedy SFX).",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-free-sounds.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-neon-fx",
+      "id": "clippolish-neon-fx",
+      "name": "ClipPolish Neon FX",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Neon FX data pack: neon edge shader, jelly wobble behaviour and a whip easing curve.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-neon-fx.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-neon-titles",
+      "id": "clippolish-neon-titles",
+      "name": "ClipPolish Neon Titles",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Neon Titles data pack, included because ClipPolish Party Titles requires it as a dependency.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-neon-titles.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-particle-pack",
+      "id": "clippolish-particle-pack",
+      "name": "ClipPolish Particle Pack",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Particle Pack data: embers, fireflies, falling leaves, hearts, star burst and bokeh particle presets.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-particle-pack.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-party-titles",
+      "id": "clippolish-party-titles",
+      "name": "ClipPolish Party Titles",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Party Titles data pack: a confetti celebration title scene (requires Particle Pack and Neon Titles).",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-party-titles.zip",
+      "developer": "HassanDevo"
+    },
+    {
+      "path": "clippolish-tap-tutorial",
+      "id": "clippolish-tap-tutorial",
+      "name": "ClipPolish Tap Tutorial",
+      "version": "1.0.0",
+      "description": "Pico Dev wrapper for the ClipPolish Tap Tutorial data pack: zoom, outline and caption every tap in a screen recording, with chapter rules per screen.",
+      "icon": "icon.svg",
+      "zip": "Plugins/clippolish-tap-tutorial.zip",
+      "developer": "HassanDevo"
     }
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-tap-tutorial",
+  "name": "ClipPolish Tap Tutorial",
+  "version": "1.0.0",
+  "description": "For screen recordings: zooms in on every tap, outlines the tapped button and adds a “Tap …” caption. Runs only when you apply it (or turn on “Run on every new recording”). Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

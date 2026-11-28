@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-particle-pack",
+  "name": "ClipPolish Particle Pack",
+  "version": "1.0.0",
+  "description": "Six ready-made particle systems: rising embers, fireflies, falling leaves, floating hearts, a star burst and soft bokeh. Pick them in a Particles element. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}

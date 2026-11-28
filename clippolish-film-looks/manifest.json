@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "id": "clippolish-film-looks",
+  "name": "ClipPolish Film Looks",
+  "version": "1.0.0",
+  "description": "Two colour looks (3D LUTs): a warm film tone and a cool teal night. Use them with the Colour look effect, or on an adjustment layer to grade everything under it. Pico Dev wrapper with the original pack data and a usage skill.",
+  "author": "HassanDevo",
+  "icon": "icon.svg",
+  "icons": {
+    "16": "icon.svg",
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}
